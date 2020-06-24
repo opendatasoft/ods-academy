@@ -83,6 +83,11 @@
   color: #45205f;
 }
 
+#lp-left-nav .lesson:hover {
+  background: inherit;
+  color: rgb(69, 32, 95);
+}
+
 .bullet i {
   display: none;
   visibility: hidden;
