@@ -39,12 +39,7 @@
   color: #45205f;
 }
 
-.lesson-active > .type-icon.type-icon {
-  display: none;
-  visibility: hidden;
-}
-
-.bullet {
+.lesson-active > .type-icon {
   display: none;
   visibility: hidden;
 }
@@ -53,7 +48,7 @@
   color: #45205f;
 }
 
- #lp-wrapper #lesson-body.details-pane-left,
- #lp-wrapper #lesson-body.details-pane-right {
-  height:100%;
- }
+.bullet {
+  display: none;
+  visibility: hidden;
+}
