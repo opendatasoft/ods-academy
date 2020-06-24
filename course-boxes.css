@@ -9,8 +9,9 @@
 }
 
 .course-box-example {
-  color: rgb(20, 46, 123);
+  color: rgb(20, 46, 123);
   background: rgba(20, 46, 123, 0.13);
+  font-size: 13px;
 }
 
 .course-box-info {
