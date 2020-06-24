@@ -61,18 +61,21 @@
   border: none;
 }
 
-#lp-wrapper #lesson-body .lesson-top {
-  padding: 41px;
-}
-
 #lp-wrapper #lesson-body .lesson-top h2 {
  font-size:37px;
  display:inline;
  color: #45205f;
 }
 
+#lp-wrapper #lesson-body .lesson-top {
+  padding: 41px;
+  color: #45205f;
+  overflow: scroll;
+}
+
 #lp-wrapper #lesson-body.details-pane-left #lesson-main-content, #lp-wrapper #lesson-body.details-pane-right #lesson-main-content {
-  width: 100%
+  width: 100%;
+  position: relative;
 }
 
 body.cbp-spmenu-fixed.sj-page-lesson:not(.lesson-fullscreen) #lp-wrapper #lesson-body #lesson-main {
