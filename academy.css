@@ -34,7 +34,17 @@
 
 #lp-left-nav .lesson-active .title:before {
   content: "\f061";
-  font-family: Font Awesome 5;
+  font-family: FontAwesome;
   background: none;
   color: #45205f;
+}
+
+.lesson-active > .type-icon.type-icon {
+  display: none;
+  visibility: hidden;
+}
+
+.lesson-active > .bullet {
+  display: none;
+  visibility: hidden;
 }
