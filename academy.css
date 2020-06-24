@@ -44,7 +44,16 @@
   visibility: hidden;
 }
 
-.lesson-active > .bullet {
+.bullet {
   display: none;
   visibility: hidden;
 }
+
+.lp-left-nav .lesson-complete .lesson-row {
+  color: #45205f;
+}
+
+ #lp-wrapper #lesson-body.details-pane-left,
+ #lp-wrapper #lesson-body.details-pane-right {
+  height:100%;
+ }
