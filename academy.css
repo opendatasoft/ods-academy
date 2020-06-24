@@ -62,7 +62,7 @@
 }
 
 #lp-wrapper #lesson-body .lesson-top {
-  padding: 41px;
+  padding: 34px;
 }
 
 #lp-wrapper #lesson-body .lesson-top h2 {
@@ -73,6 +73,7 @@
 
 #lesson-main-content {
  top: 0 !important;
+  padding: 0 5px;
 }
 
 #lp-wrapper #lesson-body.details-pane-right #lesson-main-content {
@@ -80,6 +81,8 @@
   position: relative;
 }
 
-body.cbp-spmenu-fixed.sj-page-lesson:not(.lesson-fullscreen) #lp-wrapper #lesson-body #lesson-main {
+body.cbp-spmenu-fixed.sj-page-lesson:not(.lesson-fullscreen) #lp-wrapper #lesson-body {
   overflow: scroll;
+  margin: 0 auto;
+  max-width: 960px;
 }
