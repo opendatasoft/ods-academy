@@ -30,6 +30,35 @@
   line-height: 23px;
 }
 
+.lp-left-nav .course-title {
+ color:white;
+ font-size:15px;
+ font-weight:400;
+ margin:13px 34px;
+ text-align:left;
+ white-space:normal;
+}
+
+.sj-course-time {
+ display:initial;
+ margin-left:0;
+}
+
+.sj-course-time:before {
+ content: "\A \(";
+ white-space: pre;
+}
+
+#lp-left-nav .left-nav-return {
+  color: rgb(69, 32, 95);
+  text-align: left;
+  padding: 0 34px;
+}
+
+.lp-left-nav .left-nav-return {
+ margin:0;
+}
+
 #lp-left-nav .lesson {
   color: black;
 }
