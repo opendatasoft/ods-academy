@@ -53,16 +53,13 @@
   visibility: hidden;
 }
 
-#lesson-body {
-  background: white;
-}
-
 .course-scrollable-content {
   border: none;
 }
 
 .course-text-content {
   color: #565656;
+  font-size: 15px;
 }
 
 #lp-wrapper #lesson-body .lesson-top {
@@ -79,6 +76,10 @@
   top: 0 !important;
   padding: 0 5px;
   color: #565656;
+}
+
+#lp-wrapper #lp-content {
+  background: white;
 }
 
 #lp-wrapper #lesson-body.details-pane-right #lesson-main-content {
