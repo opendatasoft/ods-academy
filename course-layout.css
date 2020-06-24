@@ -6,6 +6,11 @@
   color: black;
 }
 
+.lp-left-nav .lesson-row {
+  padding: 5px 0;
+  font-size: 13px;
+}
+
 .lp-color-scheme-light .lp-left-nav .section-title {
  background:#f6f8fb;
  color:#565656;
@@ -14,7 +19,9 @@
  border-radius: 6px;
  font-size: 13px;
  font-family: Montserrat;
+ font-weight: 400;
  line-height: 23px;
+ text-align: left;
 }
 
 #lp-left-nav {
@@ -48,7 +55,7 @@
   color: #45205f;
 }
 
-.bullet {
+.bullet i {
   display: none;
   visibility: hidden;
 }
