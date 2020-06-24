@@ -61,6 +61,10 @@
   border: none;
 }
 
+.course-text-content {
+  color: #565656;
+}
+
 #lp-wrapper #lesson-body .lesson-top {
   padding: 34px;
 }
@@ -72,8 +76,9 @@
 }
 
 #lesson-main-content {
- top: 0 !important;
+  top: 0 !important;
   padding: 0 5px;
+  color: #565656;
 }
 
 #lp-wrapper #lesson-body.details-pane-right #lesson-main-content {
