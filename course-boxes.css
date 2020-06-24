@@ -1,6 +1,6 @@
 .course-box {
   border-radius: 6px;
-  padding: 26px;
+  padding: 26px;
 }
 
 .course-box-highlight {
@@ -8,7 +8,7 @@
   background: rgba(69, 32, 95, 0.26);
 }
 
-.course-box-exemple {
+.course-box-example {
   color: rgb(20, 46, 123);
   background: rgba(20, 46, 123, 0.13);
 }
