@@ -74,13 +74,8 @@
   color: #45205f;
 }
 
-.lesson-active > .type-icon {
-  display: none;
-  visibility: hidden;
-}
-
 .lp-left-nav .lesson-complete .lesson-row {
-  color: #45205f;
+  color: rgb(0, 199, 177);
 }
 
 #lp-left-nav .lesson:hover {
