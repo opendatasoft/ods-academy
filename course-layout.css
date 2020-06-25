@@ -64,18 +64,19 @@
 
 #lp-left-nav .lesson-active {
   background: none;
-  color: #45205f;
 }
 
-#lp-left-nav .lesson-active .title:before {
-  content: "\f061";
-  font-family: FontAwesome;
-  background: none;
-  color: #45205f;
+#lp-left-nav .lesson-active .type-icon, #lp-left-nav .lesson-active .title {
+  color: rgb(69, 32, 95);
 }
 
-.lp-left-nav .lesson-complete .lesson-row {
+
+.lp-left-nav .lesson-complete .type-icon{
   color: rgb(0, 199, 177);
+}
+
+.lp-left-nav .lesson-complete .title{
+  color: rgb(137, 141, 146);
 }
 
 #lp-left-nav .lesson:hover {

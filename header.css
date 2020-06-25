@@ -3,3 +3,21 @@
   display: none;
 }
 
+.header-logo-link {
+  display: flex;
+  align-items: center;
+}
+.header-logo-link:after {
+  content: "academy";
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+  font-family: Montserrat;
+}
+
+.header-center-img {
+  margin: 3px 3px 0;
+  width: 16px;
+  height: 16px;
+}
+
