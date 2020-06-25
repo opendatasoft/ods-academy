@@ -29,3 +29,10 @@ button,
  border-radius: 18px;
 }
 
+.header-link {
+  font-size: 13px;
+}
+
+.header-link.hover {
+  color: rgb(69, 32, 95);
+}
