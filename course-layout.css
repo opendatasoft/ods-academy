@@ -7,6 +7,7 @@
 }
 
 .lp-left-nav .lesson-row {
+  display: flex;
   padding: 5px 0;
   font-size: 13px;
 }
