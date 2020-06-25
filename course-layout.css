@@ -37,14 +37,16 @@
   font-size: 13px;
 }
 
-.lp-left-nav .course-title {
- color:white;
- font-family: Montserrat;
- font-size:15px;
- font-weight:400;
- margin:24px 34px 8px;
- text-align:left;
- white-space:normal
+.lp-color-scheme-light .lp-left-nav .course-title {
+  color: white;
+  background: rgb(69, 32, 95);
+  font-family: Montserrat;
+  font-size:15px;
+  font-weight:600;
+  padding: 34px 44px 8px;
+  margin: -15px -10px;
+  text-align:left;
+  white-space:normal
 }
 
 .sj-course-time {
