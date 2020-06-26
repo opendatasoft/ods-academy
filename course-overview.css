@@ -77,3 +77,15 @@ section p.title {
 #cp-content #curriculum-list .lesson-row, .lesson-row > * {
   position: relative;
 }
+
+.lesson-section {
+  font-size: 13px;
+  color: rgb(86, 86, 86);
+  background: rgb(246, 248, 251);
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.lesson-section i {
+  display: none;
+}
