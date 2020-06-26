@@ -33,3 +33,24 @@ section p.title {
 .section-container.tabs .section .content {
  border:1px solid transparent;
 }
+
+#cp-content hr {
+  display: none;
+}
+
+
+#cp-content #curriculum-list .lesson-row .title {
+ left:44px;
+ right:0px;
+ padding-right:0px;
+ height:100%;
+ position:absolute;
+ overflow:auto;
+ white-space:wrap;
+ text-overflow:ellipsis;
+ margin-top:13px
+}
+
+#cp-content #curriculum-list .lesson-row, .lesson-row > * {
+  position: relative;
+}
