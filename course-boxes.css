@@ -1,19 +1,41 @@
 .course-box {
   border-radius: 6px;
   padding: 26px;
+  border: 1px solid;
 }
 
-.course-box-highlight {
+.course-box-success {
+  color: #01665a;
+  background: #00c7b1;
+  border-color: rgb(0, 199, 177);
+}
+
+.course-box-warning {
+  color: rgb(107, 79, 0);
+  background: rgba(239, 183, 27, 0.26);
+  border-color: #efb71b;
+}
+
+.course-box-info {
+  color: rgb(0, 79, 125);
+  background: rgba(0, 134, 214, 0.26);
+  border-color: rgb(0, 134, 214);
+}
+
+.course-box-summary {
   color: #45205f;
   background: rgba(69, 32, 95, 0.26);
+  border-color: rgb(69, 32, 95);
 }
 
 .course-box-example {
   color: rgb(20, 46, 123);
   background: rgba(20, 46, 123, 0.13);
   font-size: 13px;
+  border: none;
 }
 
-.course-box-info {
+.course-box-light {
   background: rgb(246, 248, 251);
+  border: none;
 }
