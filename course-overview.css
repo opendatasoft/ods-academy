@@ -38,17 +38,40 @@ section p.title {
   display: none;
 }
 
+#cp-content #curriculum-list .lesson-row {
+  display: flex;
+  justify-content: flex-start;
+  align-content: baseline;
+  height: unset;
+  gap: 6px;
+}
 
 #cp-content #curriculum-list .lesson-row .title {
- left:44px;
- right:0px;
- padding-right:0px;
- height:100%;
- position:absolute;
- overflow:auto;
- white-space:wrap;
- text-overflow:ellipsis;
- margin-top:13px
+  right: unset;
+  position: unset;
+  margin-top: unset;
+  width: unset;
+  margin-top: unset;
+  width: unset;
+  white-space: unset;
+  font-size: 13px;
+  color: black;
+}
+
+#cp-content #curriculum-list .lesson-row .type-icon {
+  left: unset;
+  right: unset;
+  position: unset;
+  margin-top: unset;
+  width: unset;
+  margin-top: unset;
+  width: unset;
+  white-space: unset;
+}
+
+#cp-content #curriculum-list .lesson-row .type-icon i {
+  font-size: 13px;
+  line-height: 22px;
 }
 
 #cp-content #curriculum-list .lesson-row, .lesson-row > * {
