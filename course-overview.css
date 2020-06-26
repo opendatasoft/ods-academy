@@ -11,9 +11,13 @@ body {
  cursor:default
 }
 
-#cp-content h3,
-#cp-content .h3-style {
+#cp-content h2,
+#cp-content h3 {
  font-size:22px;
+}
+
+#cp-content h2 span {
+  font-size: 13px;
 }
 
 
@@ -44,6 +48,7 @@ section p.title {
   align-content: baseline;
   height: unset;
   gap: 6px;
+  padding: 0 6px;
 }
 
 #cp-content #curriculum-list .lesson-row .title {
@@ -74,18 +79,25 @@ section p.title {
   line-height: 22px;
 }
 
-#cp-content #curriculum-list .lesson-row, .lesson-row > * {
-  position: relative;
-}
-
 .lesson-section {
   font-size: 13px;
-  color: rgb(86, 86, 86);
+  color: rgb(86, 86, 86);
   background: rgb(246, 248, 251);
   border-radius: 6px;
   padding: 6px;
 }
 
 .lesson-section i {
-  display: none;
+  float: right;
+  font-size: 13px;
 }
+
+#cp-content #curriculum-list .lesson-section .fa-caret-down {
+ font-size:13px;
+}
+
+.content p {
+  font-size: 15px;
+  color: rgb(86, 86, 86);
+}
+
