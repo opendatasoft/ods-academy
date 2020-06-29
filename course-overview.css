@@ -114,7 +114,6 @@ section p.title {
   display: flex;
   align-items: center;
   margin: auto 0;
-  gap: 39px;
 }
 
 .column.large-centered,
