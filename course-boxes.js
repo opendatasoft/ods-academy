@@ -22,7 +22,7 @@ const boxInfo = Array.from(document.querySelectorAll('.course-box-info'))
 if (boxInfo) { boxInfo.forEach((box) => addIconToBox(box, 'external-link')) }
 
 const boxWarning = Array.from(document.querySelectorAll('.course-box-warning'))
-if (boxWarning) { boxInfo.forEach((box) => addIconToBox(box, 'exclamation-triangle')) }
+if (boxWarning) { boxWarning.forEach((box) => addIconToBox(box, 'exclamation-triangle')) }
 
 const boxSuccess = Array.from(document.querySelectorAll('.course-box-success'))
-if (boxSuccess) { boxInfo.forEach((box) => addIconToBox(box, 'lightbulb-o')) }
+if (boxSuccess) { boxSuccess.forEach((box) => addIconToBox(box, 'lightbulb-o')) }
