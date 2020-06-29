@@ -1,6 +1,7 @@
 .course-box {
   border-radius: 6px;
   padding: 26px;
+  padding-left: 50px;
   border: 1px solid;
 }
 
@@ -38,4 +39,19 @@
 .course-box-light {
   background: rgb(246, 248, 251);
   border: none;
+}
+
+.box-icon {
+  font-size: 24px;
+  padding: 8px;
+  margin-top: -8px;
+}
+
+/* utilities */
+.d-flex {
+  display: flex;
+}
+
+.align-top {
+  align-items: flex-start;
 }
