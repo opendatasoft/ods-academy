@@ -31,6 +31,11 @@ section {
   max-width: 640px;
 }
 
+#curriculum-list {
+ width: 320px;
+}
+
+
 section p.title {
   display: none;
 }
@@ -72,7 +77,6 @@ section p.title {
   margin-top: unset;
   width: unset;
   margin-top: unset;
-  width: unset;
   white-space: unset;
 }
 
@@ -126,12 +130,15 @@ section p.title {
 .course-image {
   height: 171px;
   width: 320px;
+  margin: 0 42px;
 }
 
 .sj-summary {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin: 0 41px;
+  min-width: 320px;
 }
 
 .sj-summary h1 {
