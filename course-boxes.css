@@ -12,7 +12,7 @@
 .course-box-warning {
   color: rgb(107, 79, 0);
   background: rgba(239, 183, 27, 0.26);
-  border-color: #efb71b;
+  border: 1px solid #efb71b;
 }
 
 .course-box-info {
