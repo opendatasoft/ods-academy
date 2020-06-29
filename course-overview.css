@@ -55,8 +55,13 @@ section p.title {
   align-content: baseline;
   height: unset;
   gap: 6px;
-  padding: 0 6px;
+  padding: 3px 6px;
 }
+
+#cp-content #curriculum-list .lesson-complete .lesson-row .type-icon i {
+ color:rgb(0, 199, 177);
+}
+
 
 #cp-content #curriculum-list .lesson-row .title {
   right: unset;
@@ -68,6 +73,10 @@ section p.title {
   white-space: unset;
   font-size: 13px;
   color: black;
+}
+
+#cp-content #curriculum-list .lesson-complete .lesson-row .title {
+  color: rgb(137, 141, 146);
 }
 
 #cp-content #curriculum-list .lesson-row .type-icon {
