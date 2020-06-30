@@ -133,4 +133,16 @@ body.cbp-spmenu-fixed #lp-wrapper #lesson-body {
   max-width: 960px;
 }
 
+#lp-content .row {
+  flex-direction: column;
+}
+
+.large-6,
+#lp-wrapper #lesson-body.details-pane-open.details-pane-left #lesson-main {
+ position:relative;
+ width:100%;
+ padding: 41px;
+}
+
+
 
