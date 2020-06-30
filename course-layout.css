@@ -137,16 +137,12 @@ body.cbp-spmenu-fixed #lp-wrapper #lesson-body {
   flex-direction: column;
 }
 
-#lp-wrapper #lesson-body.details-pane-open.details-pane-left #lesson-main,
-#lp-wrapper #lesson-body.details-pane-open.details-pane-left #details-pane,
-#lp-wrapper #lesson-body.details-pane-open.details-pane-right #lesson-main,
-#lp-wrapper #lesson-body.details-pane-open.details-pane-right #details-pane {
+#lp-wrapper #lesson-body.details-pane-right #details-pane #details-pane-content {
  position:relative;
  width:100%;
  padding: 0 41px;
 }
 
- #lp-wrapper #lesson-body #details-pane #details-pane-content,
  #lp-wrapper #lesson-body #details-pane #details-pane-content {
   position:relative;
   top:unset;
@@ -160,8 +156,3 @@ body.cbp-spmenu-fixed #lp-wrapper #lesson-body {
 #details-pane-top {
  display:none;
 }
-
-
-
-
-
