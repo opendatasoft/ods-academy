@@ -137,12 +137,31 @@ body.cbp-spmenu-fixed #lp-wrapper #lesson-body {
   flex-direction: column;
 }
 
-.large-6,
-#lp-wrapper #lesson-body.details-pane-open.details-pane-left #lesson-main {
+#lp-wrapper #lesson-body.details-pane-open.details-pane-left #lesson-main,
+#lp-wrapper #lesson-body.details-pane-open.details-pane-left #details-pane,
+#lp-wrapper #lesson-body.details-pane-open.details-pane-right #lesson-main,
+#lp-wrapper #lesson-body.details-pane-open.details-pane-right #details-pane {
  position:relative;
  width:100%;
- padding: 41px;
+ padding: 0 41px;
 }
+
+ #lp-wrapper #lesson-body #details-pane #details-pane-content,
+ #lp-wrapper #lesson-body #details-pane #details-pane-content {
+  position:relative;
+  top:unset;
+  bottom:unset;
+  width:100%;
+  overflow:auto;
+  padding: 0px;
+ }
+
+
+#details-pane-top {
+ display:none;
+}
+
+
 
 
 
