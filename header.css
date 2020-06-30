@@ -36,3 +36,9 @@ button,
 .header-link.hover {
   color: rgb(69, 32, 95);
 }
+
+#header .header-dropdown-button img {
+ border-radius:50%;
+ border:none;
+}
+
