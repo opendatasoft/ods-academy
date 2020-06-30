@@ -1,3 +1,7 @@
+#header {
+  background-color: white;
+}
+
 .back-to-catalog {
   visibility: hidden;
   display: none;
@@ -41,4 +45,3 @@ button,
  border-radius:50%;
  border:none;
 }
-

@@ -1,0 +1,20 @@
+body {
+   background:#fff;
+   color:#222;
+   padding:0;
+   margin:0;
+   font-family:Gotham;
+   font-weight:400;
+   font-style:normal;
+   line-height:22px;
+   position:relative;
+   cursor:default
+}
+
+.button-border-color {
+  border-color: rgb(69, 32, 95);
+}
+
+.button-background {
+  background-color: rgb(69, 32, 95);
+}
