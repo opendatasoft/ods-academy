@@ -1,0 +1,34 @@
+
+<!-- Start Auto Register on Click-->
+<script>
+    $(document).ready(function () {
+        var refGuides = document.querySelectorAll('#skilljar-content #catalog-content #catalog-courses a[data-tags*="auto-register"]')
+        refGuides.forEach(function (node) {
+            var href = node.href;
+            if (!~href.indexOf('?reg=1')) {
+                node.href = href + '?reg=1';
+            }
+        })
+    })
+</script>
+<!--End Auto Register on Click-->
+
+/*Hide the "free" mention in course tiles*/
+<style>
+.storefront-price { 
+display:none; }
+</style>
+
+/*Hide the registered/complete ribbon in course tiles*/
+<style>
+.sj-course-ribbon-wrapper {
+  display:none;
+}
+</style>
+
+<!-- Start Custom footer code -->
+<script>
+$('#ep-footer').append('<div class=footer-content> <a href="https://legal.opendatasoft.com/fr/privacy-policy.html" target="_blank">Politique de confidentialité</a></div>');
+$('#ep-footer').append('<div class=footer-content> <a href="https://legal.opendatasoft.com/fr/cookies.html" target="_blank">Cookies</div>');
+</script>
+<!-- End Custom footer code -->
