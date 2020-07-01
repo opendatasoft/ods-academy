@@ -8,5 +8,5 @@ Array.from(document.querySelectorAll('fa-carret-down'))
 
 if (!document.getElementById('catalog-filter-menu')) {
   document.getElementById('catalog-left-nav').classList.add('d-none')
-  document.getElementById('skilljar-content').classList.add('no-margin')
+  document.getElementById('skilljar-content').classList.add('m-none')
 }

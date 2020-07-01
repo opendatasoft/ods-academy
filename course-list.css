@@ -74,3 +74,7 @@ button.tiny {
   font-size: 13px;
   color: #565656;
 }
+
+.catalog-filters #skilljar-content.m-none {
+  margin: unset;
+}
