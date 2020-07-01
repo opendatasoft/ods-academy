@@ -1,8 +1,8 @@
 document.getElementById('skilljar-content').classList.remove('grey-bg-d05')
 
-Array.from(document.querySelectorAll('fa-carret-down'))
+Array.from(document.querySelectorAll('.fa-caret-down'))
   .forEach((item) => {
-    item.classList.remove('fa-carret-down')
+    item.classList.remove('fa-caret-down')
     item.classList.add('fa-angle-down')
   })
 

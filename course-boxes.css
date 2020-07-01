@@ -1,6 +1,7 @@
 .course-box {
   border-radius: 6px;
   padding: 26px;
+  margin: 26px 0;
 }
 
 .course-box-success {

@@ -37,9 +37,17 @@ a.coursebox-container .coursebox-text {
   margin-bottom: 6px;
 }
 
+a.coursebox-container .catalog-page-callout {
+  position: unset;  
+}
+
 #catalog-left-nav {
   background-color: white;
   font-size: 13px;
+}
+
+#catalog-left-nav .catalog-filter-menu button {
+  font-weight: lighter;
 }
 
 .catalog-search-input-group {

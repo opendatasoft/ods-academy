@@ -1,0 +1,7 @@
+form .row {
+  flex-direction: column;
+}
+
+input {
+  border-radius: 22px;
+}

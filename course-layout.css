@@ -147,7 +147,14 @@ body.cbp-spmenu-fixed #lp-wrapper #lesson-body {
   padding: 0px;
  }
 
-
 #details-pane-top {
  display:none;
+}
+
+.quiz .question .question-text {
+font-size:15px;
+}
+
+.large-8 {
+  width: 100%;
 }

@@ -98,8 +98,10 @@ section p.title {
  font-size:13px;
 }
 
-.content p {
+.content p,
+.content ul {
   font-size: 15px;
+  font-weight: 300;
   color: rgb(86, 86, 86);
 }
 
