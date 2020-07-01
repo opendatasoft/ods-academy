@@ -10,12 +10,8 @@ body {
    cursor:default
 }
 
-p {
-  font-weight: 300;
-}
-
-span {
-  font-weight: 300;
+p, span {
+  font-weight: 300 !important;
 }
 
 .button-border-color {
