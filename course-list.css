@@ -36,3 +36,41 @@ a.coursebox-container .coursebox-text {
   padding: unset;
   margin-bottom: 6px;
 }
+
+#catalog-left-nav {
+  background-color: white;
+  font-size: 13px;
+}
+
+.catalog-search-input-group {
+  display: block;
+  padding: 13px;
+}
+
+.catalog-search-input-group .catalog-search-input {
+  border-radius: 22px;
+  padding: 13px;
+}
+
+.catalog-search-input-group .catalog-search-input-button-wrapper {
+  display: none;
+}
+
+.catalog-filter-menu {
+  padding: 13px;
+}
+
+button.tiny {
+  font-size: 13px;
+  font-weight: 300;
+  padding: 6px 13px;
+}
+
+#catalog-filter-menu h3 {
+  font-size: 15px;
+}
+
+.filter-option .fa-stack {
+  font-size: 13px;
+  color: #565656;
+}

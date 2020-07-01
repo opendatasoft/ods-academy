@@ -21,3 +21,20 @@ p, span {
 .button-background {
   background-color: rgb(69, 32, 95);
 }
+
+/* utilities */
+.d-flex {
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
+
+.align-top {
+  align-items: flex-start;
+}
+
+.m-none {
+  margin: unset;
+}
