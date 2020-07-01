@@ -38,3 +38,8 @@ p, span, ul {
 .m-none {
   margin: unset;
 }
+
+/* Move into specific login file if we redesign the login */
+form .row {
+  flex-direction: column;
+}
