@@ -7,13 +7,13 @@ const toggleChoice = () => {
   langButton.classList.toggle('choice')
 }
 
-let lang = 'fr'
+sessionStorage.setItem('lang','fr')
 
-if (lang === 'fr') {
+if (sessionStorage.getItem('lang') === 'fr') {
   headerLeft.insertAdjacentHTML('beforeend',`
-    <a href="page/catalogue-cours" class="header-link">Tous les cours</a>
-    <a href="page/parcours-thematiques" class="header-link">Parcours thématiques</a>
-    <a href="page/bibliothque-des-savoirs" class="header-link">Bibliothèque des savoirs</a>
+    <a href="/page/catalogue-cours" class="header-link">Tous les cours</a>
+    <a href="/page/parcours-thematiques" class="header-link">Parcours thématiques</a>
+    <a href="/page/bibliothque-des-savoirs" class="header-link">Bibliothèque des savoirs</a>
   `)
   headerRight.insertAdjacentHTML('beforeend',`
     <details class="header-lang button">
@@ -24,14 +24,14 @@ if (lang === 'fr') {
 
   document.getElementById('lang-choice')
     .addEventListener('click', ev => {
-      lang = 'en'
+      sessionStorage.setItem('lang', 'en')
       window.location.href = '/page/homepage'
     })
 } else {
   headerLeft.insertAdjacentHTML('beforeend',`
-    <a href="page/all-courses" class="header-link">All courses</a>
-    <a href="page/thematic-courses" class="header-link">Thematic courses</a>
-    <a href="page/knowledge-library" class="header-link">Knowledge library</a>
+    <a href="/page/all-courses" class="header-link">All courses</a>
+    <a href="/page/thematic-courses" class="header-link">Thematic courses</a>
+    <a href="/page/knowledge-library" class="header-link">Knowledge library</a>
   `)
   headerRight.insertAdjacentHTML('beforeend',`
     <details class="header-lang button">
@@ -42,7 +42,7 @@ if (lang === 'fr') {
 
   document.getElementById('lang-choice')
     .addEventListener('click', ev => {
-      lang = 'fr'
+      sessionStorage.setItem('lang' = 'fr')
       window.location.href = '/'
     })
 }
