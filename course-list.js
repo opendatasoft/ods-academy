@@ -1,4 +1,4 @@
-document.getElementById('skilljar-content').classList.remove('grey-bg-d05')
+document.getElementById('skilljar-content') && document.getElementById('skilljar-content').classList.remove('grey-bg-d05')
 
 Array.from(document.querySelectorAll('.fa-caret-down'))
   .forEach((item) => {

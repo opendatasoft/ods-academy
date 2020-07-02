@@ -32,7 +32,8 @@
   color: rgb(20, 46, 123);
   background: rgba(20, 46, 123, 0.13);
   font-size: 13px;
-  width: 80%;
+  width: 90%;
+  margin: 13px auto;
 }
 
 .course-box-light {

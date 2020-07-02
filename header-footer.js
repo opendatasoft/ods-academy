@@ -42,7 +42,7 @@ if (sessionStorage.getItem('lang') === 'fr') {
 
   document.getElementById('lang-choice')
     .addEventListener('click', ev => {
-      sessionStorage.setItem('lang, fr')
+      sessionStorage.setItem('lang', 'fr')
       window.location.href = '/'
     })
 }
