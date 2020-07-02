@@ -18,9 +18,33 @@ if (lang === 'fr') {
   headerRight.insertAdjacentHTML('beforeend',`
     <details class="header-lang button">
       <summary>Français</summary>
-      <a href="page/homepage">English</a>
+      <p id="lang-choice">English</p>
     </details>
   `)
+
+  document.getElementById('lang-choice')
+    .addEventListener('click', ev => {
+      lang = 'en'
+      window.location.href = '/page/homepage'
+    })
+} else {
+  headerLeft.insertAdjacentHTML('beforeend',`
+    <a href="page/all-courses" class="header-link">All courses</a>
+    <a href="page/thematic-courses" class="header-link">Thematic courses</a>
+    <a href="page/knowledge-library" class="header-link">Knowledge library</a>
+  `)
+  headerRight.insertAdjacentHTML('beforeend',`
+    <details class="header-lang button">
+      <summary>English</summary>
+      <p id="lang-choice">Français</p>
+    </details>
+  `)
+
+  document.getElementById('lang-choice')
+    .addEventListener('click', ev => {
+      lang = 'fr'
+      window.location.href = '/'
+    })
 }
 
 
