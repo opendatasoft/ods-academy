@@ -66,3 +66,11 @@ button,
   font-size: 13px;
   margin: unset;
 }
+
+.header-lang {
+  line-height: 22px;
+}
+
+.header-lang a {
+  color: white;
+}
