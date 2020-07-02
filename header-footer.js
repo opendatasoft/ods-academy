@@ -1,5 +1,5 @@
-const headerLeft =   document.querySelector('.header-left')
-const headerRight = document.getElementById('#header-right')
+const headerLeft =   document.getElementById('header-left')
+const headerRight = document.getElementById('header-right')
 
 let selectedLang = 'fr'
 
