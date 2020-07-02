@@ -10,7 +10,7 @@ if (selectedLang === 'fr') {
     <a href="page/bibliothque-des-savoirs" class="header-link">page/bibliothque-des-savoirs</a>
   `)
   headerRight.insertAdjacentHTML('beforeend',`
-    <a href="page/hompage" class="header-lang">EN</a>
+    <a href="page/hompage" class="header-lang button">Français</a>
   `)
 }
 
