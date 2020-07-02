@@ -1,9 +1,19 @@
-document.querySelector('.header-left')
-  .insertAdjacentHTML('beforeend',`
-  <a href="#" class="header-link">All courses</a>
-  <a href="#" class="header-link">Thematic courses</a>
-  <a href="#" class="header-link">Knowledge library</a>
-`)
+const headerLeft =   document.querySelector('.header-left')
+const headerRight = document.querySelector('.header-right')
+
+let selectedLang = 'fr'
+
+if (selectedLang === 'fr') {
+  headerLeft.insertAdjacentHTML('beforeend',`
+    <a href="page/catalogue-cours" class="header-link">Tous les cours</a>
+    <a href="page/parcours-thematiques" class="header-link">Parcours thématiques</a>
+    <a href="page/bibliothque-des-savoirs" class="header-link">page/bibliothque-des-savoirs</a>
+  `)
+  headerRight.insertAdjacentHTML('beforeend',`
+    <a href="page/hompage" class="header-lang">EN</a>
+  `)
+}
+
 
 //sj scripts
 $('#ep-footer').append('<div class=footer-content> <a href="https://legal.opendatasoft.com/fr/privacy-policy.html" target="_blank">Politique de confidentialité</a></div>');
