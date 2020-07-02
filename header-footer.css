@@ -45,14 +45,6 @@
   height: 16px;
 }
 
-button,
-.button {
- color: white;
- background: rgb(69, 32, 95);
- border-radius: 18px;
- font-size: 13px;
-}
-
 .header-link {
   font-size: 13px;
 }
@@ -64,4 +56,13 @@ button,
 #header .header-dropdown-button img {
  border-radius:50%;
  border:none;
+}
+
+button,
+.button {
+  color: white;
+  background: rgb(69, 32, 95);
+  border-radius: 18px;
+  font-size: 13px;
+  margin: unset;
 }

@@ -1,16 +1,25 @@
 const headerLeft =   document.getElementById('header-left')
 const headerRight = document.getElementById('header-right')
+const langButton = document.querySelector('.header-lang')
 
-let selectedLang = 'fr'
+const toggleChoice = () => {
+  langButton.classList.toggle('current-lang')
+  langButton.classList.toggle('choice')
+}
 
-if (selectedLang === 'fr') {
+let lang = 'fr'
+
+if (lang === 'fr') {
   headerLeft.insertAdjacentHTML('beforeend',`
     <a href="page/catalogue-cours" class="header-link">Tous les cours</a>
     <a href="page/parcours-thematiques" class="header-link">Parcours thématiques</a>
-    <a href="page/bibliothque-des-savoirs" class="header-link">page/bibliothque-des-savoirs</a>
+    <a href="page/bibliothque-des-savoirs" class="header-link">Bibliothèque des savoirs</a>
   `)
   headerRight.insertAdjacentHTML('beforeend',`
-    <a href="page/hompage" class="header-lang button">Français</a>
+    <details class="header-lang button">
+      <summary>Français</summary>
+      <a href="page/homepage">English</a>
+    </details>
   `)
 }
 
