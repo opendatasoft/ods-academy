@@ -6,7 +6,11 @@ Array.from(document.querySelectorAll('.fa-caret-down'))
     item.classList.add('fa-angle-down')
   })
 
-if (!document.getElementById('catalog-filter-menu')) {
-  document.getElementById('catalog-left-nav').classList.add('d-none')
-  document.getElementById('skilljar-content').classList.add('m-none')
+const menu = document.getElementById('catalog-filter-menu')
+const leftNav = document.getElementById('catalog-left-nav')
+const sjContent = document.getElementById('skilljar-content')
+
+if (!menu) {
+  leftNav && leftNav.classList.add('d-none')
+  sjContent && sjContent.classList.add('m-none')
 }

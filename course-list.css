@@ -21,7 +21,7 @@ a.coursebox-container:hover {
   box-shadow: unset;
 }
 
-a.coursebox-container:hover .course-box-image {
+a.coursebox-container:hover img {
   opacity: 0.75;
 }
 
@@ -38,7 +38,7 @@ a.coursebox-container .coursebox-text {
 }
 
 a.coursebox-container .catalog-page-callout {
-  position: unset;  
+  position: unset;
 }
 
 #catalog-left-nav {
