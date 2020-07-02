@@ -7,7 +7,7 @@ const toggleChoice = () => {
   langButton.classList.toggle('choice')
 }
 
-sessionStorage.setItem('lang','fr')
+!sessionStorage.getItem('lang') && sessionStorage.setItem('lang','fr')
 
 if (sessionStorage.getItem('lang') === 'fr') {
   headerLeft.insertAdjacentHTML('beforeend',`
