@@ -3,6 +3,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: unset;
+  padding-top: 13px;
+}
+
+#header .headerheight {
+  height: unset;
 }
 
 #header #header-left {
@@ -12,8 +18,16 @@
 #header #header-right {
   position: unset;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   padding: 0 13px;
+}
+
+#header .header-dropdown-button {
+  padding: 0 13px;
+}
+
+#header .header-dropdown-button::before {
+  display: none;
 }
 
 /* overrides default table cell */
@@ -68,5 +82,5 @@ button,
 }
 
 .header-lang {
-  line-height: 22px;
+  pos
 }

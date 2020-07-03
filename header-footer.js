@@ -15,11 +15,13 @@ if (sessionStorage.getItem('lang') === 'fr') {
     <a href="/page/parcours-thematiques" class="header-link">Parcours thématiques</a>
     <a href="/page/bibliothque-des-savoirs" class="header-link">Bibliothèque des savoirs</a>
   `)
-  headerRight.insertAdjacentHTML('beforeend',`
-    <details class="header-lang button">
-      <summary>Français</summary>
-      <p id="lang-choice">English</p>
-    </details>
+  headerRight.insertAdjacentHTML('afterbegin',`
+    <div>
+      <details class="header-lang button">
+        <summary>Français</summary>
+        <p id="lang-choice">English</p>
+      </details>
+    </div>
   `)
 
   document.getElementById('lang-choice')
@@ -33,11 +35,13 @@ if (sessionStorage.getItem('lang') === 'fr') {
     <a href="/page/thematic-courses" class="header-link">Thematic courses</a>
     <a href="/page/knowledge-library" class="header-link">Knowledge library</a>
   `)
-  headerRight.insertAdjacentHTML('beforeend',`
-    <details class="header-lang button">
-      <summary>English</summary>
-      <p id="lang-choice">Français</p>
-    </details>
+  headerRight.insertAdjacentHTML('afterbegin',`
+    <div>
+      <details class="header-lang button">
+        <summary>English</summary>
+        <p id="lang-choice">Français</p>
+      </details>
+    <div>
   `)
 
   document.getElementById('lang-choice')
