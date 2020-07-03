@@ -17,7 +17,7 @@ if (sessionStorage.getItem('lang') === 'fr') {
   `)
   headerRight.insertAdjacentHTML('afterbegin',`
     <div>
-      <details class="header-lang button">
+      <details class="header-lang-btn button">
         <summary>Français</summary>
         <span id="lang-choice">English</span>
       </details>
@@ -37,7 +37,7 @@ if (sessionStorage.getItem('lang') === 'fr') {
   `)
   headerRight.insertAdjacentHTML('afterbegin',`
     <div>
-      <details class="header-lang button">
+      <details class="header-lang-btn button">
         <summary>English</summary>
         <span id="lang-choice">Français</span>
       </details>
