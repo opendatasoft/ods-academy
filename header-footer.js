@@ -19,7 +19,7 @@ if (sessionStorage.getItem('lang') === 'fr') {
     <div>
       <details class="header-lang button">
         <summary>Français</summary>
-        <p id="lang-choice">English</p>
+        <span id="lang-choice">English</span>
       </details>
     </div>
   `)
@@ -39,7 +39,7 @@ if (sessionStorage.getItem('lang') === 'fr') {
     <div>
       <details class="header-lang button">
         <summary>English</summary>
-        <p id="lang-choice">Français</p>
+        <span id="lang-choice">Français</span>
       </details>
     <div>
   `)
