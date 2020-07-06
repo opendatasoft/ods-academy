@@ -16,9 +16,10 @@ a.coursebox-container {
   padding: 13px;
 }
 
-.coursebox-image {
-  align-self: center;
+a.coursebox-container.course .coursebox-image {
+ align-self: center;
 }
+
 
 a.coursebox-container:hover {
   border-color: black;
