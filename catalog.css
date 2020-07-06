@@ -33,6 +33,7 @@ a.coursebox-container .course-time {
   position: unset;
   color: #cbd2db;
   font-size: 13px;
+  align-self: flex-end;
 }
 
 a.coursebox-container .coursebox-text {
