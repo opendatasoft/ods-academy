@@ -17,3 +17,33 @@
 #cp-content #curriculum-list .lesson-row .type-icon i.fa-check-square-o {
   color: #0086d6;
 }
+
+#lp-left-nav .type-icon .icon-text {
+  color: #efb71b;
+}
+
+#lp-left-nav .type-icon .fa-check-square-o {
+  color: #0086d6;
+}
+
+#lp-left-nav .type-icon .icon-video {
+  color: #ce0037;
+}
+
+#lp-left-nav .type-icon .icon-form {
+  color: #142e7b;
+}
+
+#lp-left-nav .lesson-complete .type-icon .icon-form,
+#lp-left-nav .lesson-complete .type-icon .icon-video,
+#lp-left-nav .lesson-complete .type-icon .icon-text,
+#lp-left-nav .lesson-complete .type-icon .fa-check-square-o {
+  color: rgb(0, 199, 177);
+}
+
+#lp-left-nav .lesson-active .type-icon .icon-form,
+#lp-left-nav .lesson-active .type-icon .icon-video,
+#lp-left-nav .lesson-active .type-icon .icon-text,
+#lp-left-nav .lesson-active .type-icon .fa-check-square-o {
+  color: rgb(69, 32, 95);
+}
