@@ -1,4 +1,4 @@
-cp-content #curriculum-list .lesson-row .type-icon i {
+#cp-content #curriculum-list .lesson-row .type-icon i {
   color: unset;
 }
 
@@ -6,14 +6,14 @@ cp-content #curriculum-list .lesson-row .type-icon i {
   color: #efb71b;
 }
 
-.icon-text {
+#cp-content #curriculum-list .lesson-row .type-icon i.icon-text {
   color: #efb71b;
 }
 
-.icon-video {
+#cp-content #curriculum-list .lesson-row .type-icon i.icon-video {
   color: #ce0037;
 }
 
-.fa-check-square-o {
+#cp-content #curriculum-list .lesson-row .type-icon i.fa-check-square-o {
   color: #0086d6;
 }
