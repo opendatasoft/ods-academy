@@ -51,7 +51,12 @@ if (sessionStorage.getItem('lang') === 'fr') {
     })
 }
 
+const footerLeft = document.getElementById('footer-left')
+footerLeft.insertAdjacentHTML('beforeend',`
+  <a class="footer-content" href="https://legal.opendatasoft.com/fr/privacy-policy.html" target="_blank">Politique de confidentialité</a>
+  <a class="footer-ontent" href="https://legal.opendatasoft.com/fr/cookies.html" target="_blank">Cookies</a>
+`)
 
-//sj scripts
-$('#ep-footer').append('<div class=footer-content> <a href="https://legal.opendatasoft.com/fr/privacy-policy.html" target="_blank">Politique de confidentialité</a></div>');
-$('#ep-footer').append('<div class=footer-content> <a href="https://legal.opendatasoft.com/fr/cookies.html" target="_blank">Cookies</div>');
+// //sj scripts
+// $('#ep-footer').append('<div class=footer-content> <a href="https://legal.opendatasoft.com/fr/privacy-policy.html" target="_blank">Politique de confidentialité</a></div>');
+// $('#ep-footer').append('<div class=footer-content> <a href="https://legal.opendatasoft.com/fr/cookies.html" target="_blank">Cookies</div>');

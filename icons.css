@@ -1,0 +1,19 @@
+cp-content #curriculum-list .lesson-row .type-icon i {
+  color: unset;
+}
+
+.fa-angle-down {
+  color: #efb71b;
+}
+
+.icon-text {
+  color: #efb71b;
+}
+
+.icon-video {
+  color: #ce0037;
+}
+
+.fa-check-square-o {
+  color: #0086d6;
+}

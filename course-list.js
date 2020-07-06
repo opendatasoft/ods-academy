@@ -9,8 +9,10 @@ Array.from(document.querySelectorAll('.fa-caret-down'))
 const menu = document.getElementById('catalog-filter-menu')
 const leftNav = document.getElementById('catalog-left-nav')
 const sjContent = document.getElementById('skilljar-content')
+const epFooter = document.querySelector('.catalog-filters #ep-footer')
 
 if (!menu) {
   leftNav && leftNav.classList.add('d-none')
   sjContent && sjContent.classList.add('m-none')
+  epFootr && epFooter.classList.add('m-none')
 }

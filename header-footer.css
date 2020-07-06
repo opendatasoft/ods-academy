@@ -98,3 +98,10 @@ details:not([open]) summary {
 details summary {
   transition: margin-bottom 0.05s linear;
 }
+
+#ep-footer #footer-left {
+  display: flex;
+  justify-content: flex-start;
+  gap: 6px;
+  font-size: 13px;
+}
