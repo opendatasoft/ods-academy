@@ -13,7 +13,7 @@ if (sessionStorage.getItem('lang') === 'fr') {
   headerLeft.insertAdjacentHTML('beforeend',`
     <a href="/page/catalogue-cours" class="header-link">Tous les cours</a>
     <a href="/page/parcours-thematiques" class="header-link">Parcours thématiques</a>
-    <a href="/page/bibliothque-des-savoirs" class="header-link">Bibliothèque des savoirs</a>
+    <a href="/page/bibliotheque-des-savoirs" class="header-link">Bibliothèque des savoirs</a>
   `)
   headerRight.insertAdjacentHTML('afterbegin',`
     <div>

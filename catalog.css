@@ -16,6 +16,10 @@ a.coursebox-container {
   padding: 13px;
 }
 
+.coursebox-image {
+  align-self: center;
+}
+
 a.coursebox-container:hover {
   border-color: black;
   box-shadow: unset;
@@ -40,6 +44,7 @@ a.coursebox-container .coursebox-text {
 a.coursebox-container .catalog-page-callout {
   position: unset;
 }
+
 
 #catalog-left-nav {
   background-color: white;
@@ -85,4 +90,58 @@ button.tiny {
 
 .catalog-filters #skilljar-content.m-none {
   margin: unset;
+}
+
+.no-catalog-filters .catalog-center-width {
+  min-width: 320px;
+  max-width: 960px;
+}
+
+.w-100-bg-purple {
+  background: #45205f;
+  color: white;
+}
+
+.all-courses {
+ display: flex;
+ gap: 48px;
+ padding: 48px;
+ min-width: 320px;
+ max-width: 960px;
+ margin: 0 auto;
+}
+
+
+.all-courses h1 {
+  font-size: 31px;
+  color: white;
+}
+
+.all-courses-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space;
+}
+
+.all-courses-link {
+  padding: 8px 13px;
+  border-radius: 21px;
+  background: #efb71b;
+  font-size: 15px;
+  margin: 8px 0;
+}
+
+.top-row .one-col-full {
+  background-image: url(https://lh3.googleusercontent.com/7gsrOnUUDEL-uPtfhVhZXqhKA7JYoPOndYtXbCjKTX_rFwxdmHsNjqLt8iDPIaT44Hz9peyVlT5Xzm6TgkJJLldo0wAiFvSA8_tzExGU=s1600);
+  background-size: cover;
+  height: 480px;
+  margin: 41px auto;
+}
+
+.catalog-center-width .catalog-header {
+  width: 50%;
+  background: white;
+  margin: 0 -24px;
+  padding: 24px;
 }

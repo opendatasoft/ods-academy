@@ -46,7 +46,7 @@ section p.title {
 }
 
 #cp-content #curriculum-list .lesson-complete .lesson-row .type-icon i {
- color:rgb(0, 199, 177);
+ color:rgb(0, 199, 177) !important;
 }
 
 
