@@ -74,6 +74,7 @@ section p.title {
   width: unset;
   margin-top: unset;
   white-space: unset;
+  padding: 0 6px;
 }
 
 #cp-content #curriculum-list .lesson-row .type-icon i {

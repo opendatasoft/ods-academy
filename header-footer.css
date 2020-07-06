@@ -36,10 +36,10 @@
   align-items: center;
 }
 
-.back-to-catalog {
+/* .back-to-catalog {
   visibility: hidden;
   display: none;
-}
+} */
 
 .header-logo-link {
   display: flex;
