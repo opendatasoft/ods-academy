@@ -17,7 +17,8 @@ if (!menu) {
   epFooter && epFooter.classList.add('m-none')
 }
 
-document.querySelector('[title="Tous les cours"]').remove()
+const allCourses = document.querySelector('[title="Tous les cours"]')
+allCourses && allCourses.remove()
 
 const homepageContent = document.querySelector('.sj-page-catalog-root #skilljar-content')
 homepageContent && homepageContent.insertAdjacentHTML('beforeend',/*html*/`

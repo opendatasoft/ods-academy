@@ -132,16 +132,16 @@ button.tiny {
   margin: 8px 0;
 }
 
-.top-row .one-col-full {
+.sj-page-catalog-root .top-row .one-col-full {
   background-image: url(https://lh3.googleusercontent.com/7gsrOnUUDEL-uPtfhVhZXqhKA7JYoPOndYtXbCjKTX_rFwxdmHsNjqLt8iDPIaT44Hz9peyVlT5Xzm6TgkJJLldo0wAiFvSA8_tzExGU=s1600);
   background-size: cover;
   height: 480px;
   margin: 41px auto;
 }
 
-.catalog-center-width .catalog-header {
+.sj-page-catalog-root .catalog-center-width .catalog-header {
   width: 50%;
   background: white;
   margin: 0 -24px;
   padding: 24px;
-}
+}5ca
