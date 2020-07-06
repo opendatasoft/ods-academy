@@ -14,5 +14,5 @@ const epFooter = document.querySelector('.catalog-filters #ep-footer')
 if (!menu) {
   leftNav && leftNav.classList.add('d-none')
   sjContent && sjContent.classList.add('m-none')
-  epFootr && epFooter.classList.add('m-none')
+  epFooter && epFooter.classList.add('m-none')
 }
