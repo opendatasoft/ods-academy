@@ -166,8 +166,23 @@ button.tiny {
   margin: 41px auto;
 }
 
-.sj-page-catalog-root .catalog-center-width .catalog-header {
+[data-catalog-page="parcours-thematiques"] .top-row .one-col-full {
+  background-image: url(https://lh6.googleusercontent.com/B4XRhiDXONHvwhgNyxyJHHPioWGWupsrD6fa_lP5ohUDogbTatP1wGWU4D5aDdrNNvXuIdAqMQvUtIxXfUsRTdQtTMuSwoRydRX9D68X=s1600);
+  background-size: cover;
+  height: 480px;
+  margin: 41px auto;
+}
+
+[data-catalog-page="bibliotheque-des-savoirs"] .top-row .one-col-full {
+  background-image: url(https://lh5.googleusercontent.com/CtvD6eWd24Q266z5Im8gUwM7hu4uGvIl0iIJg_hIdDbZCOhSfCIHr68QwrGans36tw9cwPlBwba3EPacqJ4QbQBLYUFec28SgSwWlNmE=s1600);
+  background-size: cover;
+  height: 480px;
+  margin: 41px auto;
+}
+
+.catalog-center-width .catalog-header {
   width: 50%;
+  min-width: 320px;
   background: white;
   margin: 0 -24px;
   padding: 24px;
