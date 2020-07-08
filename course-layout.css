@@ -12,6 +12,10 @@
   font-size: 13px;
 }
 
+.lp-color-scheme-light #lp-wrapper {
+  background-color: white;
+}
+
 .lp-color-scheme-light .lp-left-nav .section-title {
  background:#f6f8fb;
  color:#565656;
@@ -157,4 +161,8 @@ font-size:15px;
 
 .large-8 {
   width: 100%;
+}
+
+.show-question .row {
+  display: block;
 }
