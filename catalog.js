@@ -16,20 +16,50 @@ if (!menu) {
   sjContent && sjContent.classList.add('m-none')
   epFooter && epFooter.classList.add('m-none')
 
-  const homepageContent = document.querySelector('.sj-page-catalog #skilljar-content')
+  const homepageContent = document.querySelector('.sj-page-catalog-root #skilljar-content')
   homepageContent && homepageContent.insertAdjacentHTML('beforeend',/*html*/`
-    <div class="w-100-bg-purple">
-      <div class="all-courses">
-        <img src="https://lh5.googleusercontent.com/Sx5v7GmHrWC8RY5D5Zr4nMxCtDAngR7Dc8RUT8miJpG1sNJc6MoWNoylTknU5ADYEOBwW2N3Hv44533mSQq9EtGaagAbiWKVhNDlIbTljLLlyyCIXJ7JlUIhBnY6cIOrTH99oGKy4_Y" width="320px" height="171px" alt="une image" />
-        <div class="all-courses-descrpition">
-          <h1>Browse through our full catalog of courses</h1>
-          <p>Filter courses by difficulty, topic and skill to find what you need.</p>
-          <a href="https://opendatasoft.skilljar.com/page/catalogue-cours" class="all-courses-link">Access all courses</a>
+    <div class="bg-darkblue">
+      <div class="hero">
+        <img src="https://eu.ftp.opendatasoft.com/odsacademy/img/rocket.png" width="320px" height="171px" alt="une image" />
+        <div class="first-steps-descrpition">
+          <h1>Vos premiers pas sur ODS</h1>
+          <p>Familiarisez-vous avec la plateforme et ses fonctionnalités avec ce premier parcours de découverte.</p>
+          <a href="https://opendatasoft.skilljar.com/page/vos-premiers-pas-sur-opendatasoft" class="hero-link">Accéder au parcours</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="why-academy" class="hero">
+      <h1>Pourquoi apprendre avec <strong>ODS Academy</strong> ?</h1>
+      <div id="why-cards">
+        <div class="why-card">
+          <img src="https://eu.ftp.opendatasoft.com/odsacademy/img/meter.svg" alt="compteur">
+          <h3>Gagnez en autonomie sur ODS</h3>
+          <p>Apprenez à réaliser des opérations de plus en plus avancées sur la plateforme. Suivez les cours à votre rythme, testez vos connaissances grâce à des quizzes et des exercices, et formez à votre tour vos collègues et vos partenaires.</p>
+        </div>
+        <div class="why-card">
+          <img src="https://eu.ftp.opendatasoft.com/odsacademy/img/pen.svg" alt="compteur">
+          <h3>Composez votre menu pédagogique</h3>
+          <p>Parcours interactif, cours rapide ou tutoriel express, trouvez le contenu adapté à vos objectifs, à votre niveau et au temps que vous avez devant vous. Commencez une leçon et revenez-y quand vous le souhaitez, sans perdre votre progression.</p>
+        </div>
+        <div class="why-card">
+          <img src="https://eu.ftp.opendatasoft.com/odsacademy/img/hands.svg" alt="compteur">
+          <h3>Valorisez vos savoirs et savoir-faire</h3>
+          <p>Combinez votre maîtrise d’ODS avec une solide connaissance du cycle de vie des données. Servez-vous de vos compétences pour faire grandir les projets numériques dans votre organisation, et booster vos opportunités de carrière.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-purple">
+      <div class="hero">
+        <div>
+          <p>Opendatasoft est enregistré comme organisme de formation.</p>
+          <h1>Nos formations sont reconnues. Vos compétences aussi.</h1>
         </div>
       </div>
     </div>
   `)
 }
 
-const allCourses = document.querySelector('[title="Tous les cours"]')
-allCourses && allCourses.remove()
+// const = document.querySelector('[title="Tous les cours"]')
+// allCourses && allCourses.remove()

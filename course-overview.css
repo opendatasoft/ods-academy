@@ -10,12 +10,12 @@
 
 .section-container.tabs {
   display: flex;
-  gap: 39px;
 }
 
 section {
   min-width: 320px;
   max-width: 640px;
+  margin: 0 21px;
 }
 
 #curriculum-list {
@@ -41,7 +41,6 @@ section p.title {
   justify-content: flex-start;
   align-content: baseline;
   height: unset;
-  gap: 6px;
   padding: 3px 6px;
 }
 
@@ -107,7 +106,7 @@ section p.title {
 }
 
 .top-row-grey {
-  background: rgb(254, 251, 244);
+  background: #F6F8FB;
   border: none;
   height: 320px;
   padding: unset;
@@ -147,8 +146,14 @@ section p.title {
 }
 
 #resume-button {
-  gap: 13px;
+  margin: 0;
 }
+
 #messages {
   display: none;
+}
+
+div.cp-promo-image {
+ width:320px;
+ max-height:170px;
 }

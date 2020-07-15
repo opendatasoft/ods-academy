@@ -33,7 +33,7 @@ The deploy method uses Terser and Uglify CSS. To add them :
 yarn add terser
 yarn add uglifycss
 ```
-To produce the output files : 
+To produce the output files :
 ```
 terser *.js > custom-academy.js
 uglifycss *.css > custom-academy.css

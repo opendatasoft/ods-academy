@@ -74,13 +74,18 @@ a.coursebox-container .coursebox-text-description {
 }
 
 #catalog-left-nav {
-  background-color: white;
+  background-color: #45205f;
   font-size: 13px;
 }
 
 #catalog-left-nav .catalog-filter-menu button {
   font-weight: lighter;
 }
+
+#catalog-reset, #catalog-filter-expand-collapse {
+  border: 1px solid white;
+}
+
 
 .catalog-search-input-group {
   display: block;
@@ -106,8 +111,29 @@ button.tiny {
   padding: 6px 13px;
 }
 
+#catalog-reset, #catalog-filter-expand-collapse {
+  border: 1px solid white;
+}
+
+#catalog-filter-menu .filter-name {
+  color: white;
+}
+
+#catalog-filter-menu i {
+  color: #efb71b;
+}
+
+#catalog-filter-menu .filter-counter {
+  color: #cbd2db;
+}
+
 #catalog-filter-menu h3 {
   font-size: 15px;
+  color: white;
+}
+
+#catalog-filter-menu hr {
+  color: white;
 }
 
 .filter-option .fa-stack {
@@ -124,63 +150,118 @@ button.tiny {
   max-width: 960px;
 }
 
-.w-100-bg-purple {
+#catalog-courses {
+  justify-content: space-between;
+}
+
+.bg-darkblue {
+  background: #142E7B;
+  color: white;
+}
+
+.bg-purple {
   background: #45205f;
   color: white;
 }
 
-.all-courses {
+.bg-purple h3 {
+  color: white;
+}
+
+#why-academy {
+  display: block;
+}
+
+#why-academy h1 {
+  color: #45205f;
+  font-size: 31px;
+  text-align: center;
+}
+
+#why-academy p {
+  font-size: 15px;
+}
+
+#why-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media (max-width: 767px) {
+  #why-cards {
+    flex-direction: column;
+  }
+}
+
+.why-card {
+  min-width: 240px;
+  margin-right: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.why-card img {
+  height: 120px;
+  width: 120px;
+}
+
+.hero {
  display: flex;
- gap: 48px;
- padding: 48px;
+ padding: 0 48px;
  min-width: 320px;
  max-width: 960px;
- margin: 0 auto;
+ margin: 0 auto;
+}
+
+.hero > * {
+  margin: 48px;
 }
 
 
-.all-courses h1 {
+.hero h1 {
   font-size: 31px;
   color: white;
 }
 
-.all-courses-description {
+.hero p {
+  font-size: 15px;
+}
+
+.hero-description {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space;
+  justify-content: space-between;
 }
 
-.all-courses-link {
+.hero-link {
   padding: 8px 13px;
   border-radius: 21px;
   background: #efb71b;
+  color: #142E7B;
   font-size: 15px;
   margin: 8px 0;
 }
 
 .sj-page-catalog-root .top-row .one-col-full {
-  background-image: url(https://lh3.googleusercontent.com/7gsrOnUUDEL-uPtfhVhZXqhKA7JYoPOndYtXbCjKTX_rFwxdmHsNjqLt8iDPIaT44Hz9peyVlT5Xzm6TgkJJLldo0wAiFvSA8_tzExGU=s1600);
+  background-image: url(https://eu.ftp.opendatasoft.com/odsacademy/img/classroom.png);
   background-size: cover;
   height: 480px;
   margin: 41px auto;
 }
 
 [data-catalog-page="parcours-thematiques"] .top-row .one-col-full {
-  background-image: url(https://lh6.googleusercontent.com/B4XRhiDXONHvwhgNyxyJHHPioWGWupsrD6fa_lP5ohUDogbTatP1wGWU4D5aDdrNNvXuIdAqMQvUtIxXfUsRTdQtTMuSwoRydRX9D68X=s1600);
+  background-image: url(https://eu.ftp.opendatasoft.com/odsacademy/img/books.jpg);
   background-size: cover;
   height: 480px;
   margin: 41px auto;
 }
 
-[data-catalog-page="bibliotheque-des-savoirs"] .top-row .one-col-full {
-  background-image: url(https://lh5.googleusercontent.com/CtvD6eWd24Q266z5Im8gUwM7hu4uGvIl0iIJg_hIdDbZCOhSfCIHr68QwrGans36tw9cwPlBwba3EPacqJ4QbQBLYUFec28SgSwWlNmE=s1600);
-  background-size: cover;
-  height: 480px;
-  margin: 41px auto;
-}
 
-.catalog-center-width .catalog-header {
+[data-catalog-page="parcours-thematiques"] .sj.catalog-center-width .catalog-header,
+[data-catalog-page=""] .sj.catalog-center-width .catalog-header{
   width: 50%;
   min-width: 320px;
   background: white;

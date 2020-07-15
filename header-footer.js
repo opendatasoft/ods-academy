@@ -16,7 +16,8 @@ const headerLinks = {
       url: "https://opendatasoft.skilljar.com/page/parcours-thematiques"
     },
     {
-      name: "Bibliothèque des savoirs"
+      name: "Bibliothèque des savoirs",
+      url: "https://opendatasoft.skilljar.com/page/bibliotheque-des-savoirs"
     }
   ],
   en: [
@@ -43,7 +44,7 @@ const insertHeaderLinks = (lang) => {
 }
 
 const insertFooterLinks = (lang) => {
-  footerLeft.insertAdjacentHTML('beforeend',/*html*/`
+  footerLeft && footerLeft.insertAdjacentHTML('beforeend',/*html*/`
     <a class="footer-content" href="https://legal.opendatasoft.com/${lang}/privacy-policy.html" target="_blank">
       ${lang === 'fr' ? 'Politique de confidentialité' : 'Privacy Policy'}
     </a>
@@ -54,7 +55,7 @@ const insertFooterLinks = (lang) => {
 const insertLangButton = (lang) => {
   headerRight.insertAdjacentHTML('afterbegin',/*html*/`
     <div>
-      <details class="header-lang-btn button">
+      <details class="header-lang-btn">
         <summary>${lang.toUpperCase()}</summary>
         <span id="lang-choice">${ lang === 'fr' ? 'EN' : 'FR'}</span>
       </details>

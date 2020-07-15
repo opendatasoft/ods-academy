@@ -65,6 +65,13 @@
   font-size: 13px;
 }
 
+.header-center-img {
+ width:21px;
+ height:21px;
+ margin: 0 6px;
+}
+
+
 .header-link.hover {
   color: rgb(69, 32, 95);
 }
@@ -84,10 +91,18 @@ button,
 }
 
 .header-lang-btn {
-  position: relative;
-  top: 0;
-  transition: margin-top 0.05s ease;
+ position:relative;
+ top:0;
+ transition:margin-top .05s ease;
+ color:#45205f;
+ background:white;
+ border:2px solid #45205f;
+ border-radius:15px;
+ font-size:13px;
+ padding: 3px 13px;
+ font-weight: 400;
 }
+
 
 details[open] summary {
   margin-bottom: 6px;
@@ -106,4 +121,8 @@ details summary {
   justify-content: flex-start;
   gap: 6px;
   font-size: 13px;
+}
+
+#ep-footer #footer-left > * {
+  margin: 0 6px;
 }
