@@ -153,7 +153,8 @@ section p.title {
   display: none;
 }
 
-div.cp-promo-image {
+div.cp-promo-image,
+div.dp-promo-image {
  width:320px;
  max-height:170px;
 }
