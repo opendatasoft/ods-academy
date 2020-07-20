@@ -3,15 +3,19 @@ body {
    color:#222;
    padding:0;
    margin:0;
-   font-family: GothamPro, sans-serif;
+   font-family: 'GothamPro', sans-serif;
    font-weight: 300 !important;
    line-height:22px;
    position:relative;
    cursor:default
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'GothamPro', sans-serif;
+}
+
 p, span, ul {
-  font-weight: 400 !important;
+  font-weight: 300 !important;
 }
 
 #lp-wrapper a {

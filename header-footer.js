@@ -4,6 +4,7 @@ const headerLeft =   document.getElementById('header-left')
 const headerRight = document.getElementById('header-right')
 const langButton = document.querySelector('.header-lang')
 const footerLeft = document.getElementById('footer-left')
+const logoLink = document.querySelector('.header-logo-link')
 
 const headerLinks = {
   fr: [
@@ -63,10 +64,15 @@ const insertLangButton = (lang) => {
   `)
 }
 
+const replaceLogoLink = (lang) => {
+    if (lang === 'en') { logoLink.href="https://opendatasoft.skilljar.com/page/homepage"}
+}
+
 const renderLinks = (lang) => {
   insertLangButton(lang)
   insertFooterLinks(lang)
   insertHeaderLinks(lang)
+  replaceLogoLink(lang)
 }
 
 const toggleLang = () => {
