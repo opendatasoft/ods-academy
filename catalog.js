@@ -63,7 +63,7 @@ const homepageEN = /*html*/`
         <div class="first-steps-descrpition">
           <h1>Getting started with ODS</h1>
           <p>Taking your first steps on the Opendatasoft platform? This ODS 101 course is here to help you hit the ground running.</p>
-          <a href="https://opendatasoft.skilljar.com/page/getting-started" class="hero-link">Accéder au parcours</a>
+          <a href="https://opendatasoft.skilljar.com/page/getting-started" class="hero-link">Access the courses</a>
         </div>
       </div>
     </div>

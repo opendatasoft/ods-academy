@@ -259,7 +259,7 @@ button.tiny {
 [data-catalog-page="thematic-courses"] .top-row .one-col-full {
   background-image: url(https://eu.ftp.opendatasoft.com/odsacademy/img/books.jpg);
   background-size:auto 320px;
-  margin:41px auto;
+  margin: 0 auto 41px auto;
   background-repeat: no-repeat;
   background-position: top right;
 }
