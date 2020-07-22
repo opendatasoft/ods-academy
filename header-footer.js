@@ -10,29 +10,29 @@ const headerLinks = {
   fr: [
     {
       name: "Tous les cours",
-      url: "https://opendatasoft.skilljar.com/page/catalogue-cours"
+      url: "https://academy.opendatasoft.com/page/catalogue-cours"
     },
     {
       name: "Parcours thématiques",
-      url: "https://opendatasoft.skilljar.com/page/parcours-thematiques"
+      url: "https://academy.opendatasoft.com/page/parcours-thematiques"
     },
     {
       name: "Bibliothèque des savoirs",
-      url: "https://opendatasoft.skilljar.com/page/bibliotheque-des-savoirs"
+      url: "https://academy.opendatasoft.com/page/bibliotheque-des-savoirs"
     }
   ],
   en: [
     {
       name: "All courses",
-      url: "https://opendatasoft.skilljar.com/page/all-courses"
+      url: "https://academy.opendatasoft.com/page/all-courses"
     },
     {
       name: "Thematic courses",
-      url: "https://opendatasoft.skilljar.com/page/thematic-courses"
+      url: "https://academy.opendatasoft.com/page/thematic-courses"
     },
     {
       name: "Knowledge library",
-      url: "https://opendatasoft.skilljar.com/page/knowledge-library"
+      url: "https://academy.opendatasoft.com/page/knowledge-library"
     }
   ]
 }
@@ -65,7 +65,7 @@ const insertLangButton = (lang) => {
 }
 
 const replaceLogoLink = (lang) => {
-    if (lang === 'en') { logoLink.href="https://opendatasoft.skilljar.com/page/homepage"}
+    if (lang === 'en') { logoLink.href="https://academy.opendatasoft.com/page/homepage"}
 }
 
 const renderLinks = (lang) => {
@@ -79,10 +79,10 @@ const toggleLang = () => {
   const lang = sessionStorage.getItem('lang')
   if (lang === 'fr') {
     sessionStorage.setItem('lang', 'en')
-    window.location.href = 'https://opendatasoft.skilljar.com/page/homepage'
+    window.location.href = 'https://academy.opendatasoft.com/page/homepage'
   } else {
     sessionStorage.setItem('lang', 'fr')
-    window.location.href = 'https://opendatasoft.skilljar.com/'
+    window.location.href = 'https://academy.opendatasoft.com/'
   }
 }
 

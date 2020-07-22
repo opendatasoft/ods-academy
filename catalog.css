@@ -209,6 +209,8 @@ button.tiny {
 
 .hero {
  display: flex;
+ flex-flow: row wrap;
+ justify-content: center;
  padding: 0 48px;
  min-width: 320px;
  max-width: 960px;
@@ -219,6 +221,10 @@ button.tiny {
   margin: 48px;
 }
 
+.hero > img {
+  width: 160px;
+  height: 160px;
+}
 
 .hero h1 {
   font-size: 31px;
@@ -243,6 +249,11 @@ button.tiny {
   color: #142E7B;
   font-size: 15px;
   margin: 8px 0;
+}
+
+.first-steps-description {
+  min-width: 320px;
+  max-width: 480px;
 }
 
 [data-catalog-page=""] .top-row .one-col-full,
@@ -273,4 +284,13 @@ button.tiny {
   background: white;
   margin: 0 -24px;
   padding: 24px;
+}
+
+.search #catalog-search-info,
+.filter-option-type {
+  background-color: white;
+}
+
+.search a.coursebox-container .coursebox-text-description {
+  border: unset;
 }
