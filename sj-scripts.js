@@ -7,3 +7,12 @@ $(document).ready(function () {
     }
   })
 })
+
+$(document).ready(function() {
+  if ($('.sj-page-curriculum').length && !$('#resume-button').length && $('.lesson-incomplete').length) {
+    var firstLesson = $('.lesson-incomplete').first().attr('href');
+    var startButton = $('<a class="button margin-top custom-start-btn" title="Begin"><span>Start</span></a>')
+      .attr('href', firstLesson)
+    $('.cp-summary-wrapper').append($('<div class="custom-btn-container" id="resume-button"/>').append(startButton));
+  }
+});

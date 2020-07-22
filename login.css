@@ -5,3 +5,7 @@ form .row {
 input {
   border-radius: 22px;
 }
+
+.socialaccount_providers {
+  display: none;
+}
