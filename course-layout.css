@@ -102,6 +102,10 @@
   padding: 0 41px;
 }
 
+#lesson-body {
+  overflow: auto;
+}
+
 #lp-wrapper #lesson-body .lesson-top {
   padding: 41px;
 }

@@ -18,8 +18,13 @@ p, span, ul {
   font-weight: 300 !important;
 }
 
+li {
+  margin-bottom: 5px;
+}
+
 #lp-wrapper a {
-  text-decoration: underline dotted rgb(69, 32, 95);
+  text-decoration: underline;
+  color: #0086d6;
 }
 
 .button-border-color {

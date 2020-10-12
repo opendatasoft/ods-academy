@@ -24,6 +24,10 @@
   padding: 0 13px;
 }
 
+#header-right .header-link {
+  padding: 0 8px;
+}
+
 #header .header-dropdown-button {
   padding: 0 13px;
 }
@@ -47,6 +51,7 @@
   display: flex;
   align-items: center;
 }
+
 .header-logo-link:after {
   content: "academy";
   font-size: 22px;

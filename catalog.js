@@ -46,14 +46,14 @@ const homepageFR = /*html*/`
       </div>
     </div>
 
-    <div class="bg-purple">
+    <!-- <div class="bg-purple">
       <div class="hero">
         <div>
           <p>Opendatasoft est enregistré comme organisme de formation.</p>
           <h1>Nos formations sont reconnues. Vos compétences aussi.</h1>
         </div>
       </div>
-    </div>
+    </div> -->
 `
 
 const homepageEN = /*html*/`
@@ -89,14 +89,14 @@ const homepageEN = /*html*/`
       </div>
     </div>
 
-    <div class="bg-purple">
+    <!-- <div class="bg-purple">
       <div class="hero">
         <div>
-          <p>Opendatasoft is registered as a training organiszation.</p>
+          <p>Opendatasoft is registered as a training organization.</p>
           <h1>Our trainings are recognized. Your skills too.</h1>
         </div>
       </div>
-    </div>
+    </div> -->
 `
 
 if (!menu) {
@@ -107,7 +107,7 @@ if (!menu) {
 
 const homepageContent = document.querySelector('.sj-page-catalog-root #skilljar-content') || document.querySelector('[data-catalog-page="homepage"] #skilljar-content')
 if (homepageContent) {
-  (sessionStorage.getItem('lang') === 'fr')
+  (window.location.toString() === 'https://academy.opendatasoft.com/')
     ? homepageContent.insertAdjacentHTML('beforeend', homepageFR)
     : homepageContent.insertAdjacentHTML('beforeend', homepageEN)
 }

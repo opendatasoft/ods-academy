@@ -42,30 +42,33 @@ const insertHeaderLinks = (lang) => {
   headerLinks[lang].forEach(link => headerLeft.insertAdjacentHTML('beforeend',
     `<a href="${link.url}" class="header-link">${link.name}</a>`
   ))
+  headerRight.insertAdjacentHTML('afterbegin',`
+    <a class="header-link" href="https://help.opendatasoft.com/${lang}/home">Help Hub</a>
+  `)
 }
 
 const insertFooterLinks = (lang) => {
-  footerLeft && footerLeft.insertAdjacentHTML('beforeend',/*html*/`
+  footerLeft && footerLeft.insertAdjacentHTML('beforeend', /*html*/`
     <a class="footer-content" href="https://legal.opendatasoft.com/${lang}/privacy-policy.html" target="_blank">
       ${lang === 'fr' ? 'Politique de confidentialité' : 'Privacy Policy'}
     </a>
-    <a class="footer-ontent" href="https://legal.opendatasoft.com/${lang}/cookies.html" target="_blank">Cookies</a>
+    <a class="footer-content" href="https://legal.opendatasoft.com/${lang}/cookies.html" target="_blank">Cookies</a>
   `)
 }
 
 const insertLangButton = (lang) => {
-  headerRight.insertAdjacentHTML('afterbegin',/*html*/`
+  headerRight.insertAdjacentHTML('beforeend', /*html*/`
     <div>
       <details class="header-lang-btn">
         <summary>${lang.toUpperCase()}</summary>
-        <span id="lang-choice">${ lang === 'fr' ? 'EN' : 'FR'}</span>
+        <span id="lang-choice">${ lang === 'fr' ? 'EN' : 'FR'}</span>
       </details>
     <div>
   `)
 }
 
 const replaceLogoLink = (lang) => {
-    if (lang === 'en') { logoLink.href="https://academy.opendatasoft.com/page/homepage"}
+  if (lang === 'en') { logoLink.href="https://academy.opendatasoft.com/page/homepage"}
 }
 
 const renderLinks = (lang) => {
@@ -87,7 +90,16 @@ const toggleLang = () => {
 }
 
 const initLangSelect = () => {
-  !sessionStorage.getItem('lang') && sessionStorage.setItem('lang','fr')
+  if (window.location.toString() === 'https://academy.opendatasoft.com/page/homepage') {
+    sessionStorage.setItem('lang', 'en')
+  } else if (window.location.toString() === 'https://academy.opendatasoft.com/') {
+    sessionStorage.setItem('lang', 'fr')
+  } else if (!sessionStorage.getItem('lang')) {
+    navigator.language.match(/(fr)/)
+      ? sessionStorage.setItem('lang', 'fr')
+      : sessionStorage.setItem('lang', 'en')
+  }
+
   renderLinks(sessionStorage.getItem('lang'))
   const langChoice = document.getElementById('lang-choice')
   langChoice.addEventListener('click', toggleLang)

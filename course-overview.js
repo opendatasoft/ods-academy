@@ -1,6 +1,10 @@
 Array.from(document.querySelectorAll('section'))
   .forEach((section) => section.classList.add('active'))
 
+if(document.querySelector('.purchase-button-full-text')){
+  document.querySelector('.purchase-button-full-text').innerText = document.querySelector('.purchase-button-full-text').innerText.split(" |")[0]
+}
+
 //SJ autosubscription
 $(document).ready(function () {
     var refGuides = document.querySelectorAll('#skilljar-content #catalog-content #catalog-courses a[data-tags*="auto-register"]')

@@ -89,13 +89,14 @@ section p.title {
   padding: 6px;
 }
 
-.lesson-section i {
+.lesson-section .fa-angle-down {
   float: right;
   font-size: 13px;
 }
 
-#cp-content #curriculum-list .lesson-section .fa-caret-down {
- font-size:13px;
+#cp-content #curriculum-list .lesson-section .fa {
+  vertical-align: baseline;
+  font-size:13px;
 }
 
 .content p,
@@ -147,6 +148,7 @@ section p.title {
 
 #resume-button {
   margin: 0;
+  margin-top: 16px;
 }
 
 #messages {
@@ -160,5 +162,9 @@ div.dp-promo-image {
 }
 
 .social-media-wrapper {
+  display:none;
+}
+
+.storefront-price {
   display:none;
 }
