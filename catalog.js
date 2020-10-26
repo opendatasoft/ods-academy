@@ -57,17 +57,6 @@ const homepageFR = /*html*/`
 `
 
 const homepageEN = /*html*/`
-    <div class="bg-darkblue">
-      <div class="hero">
-        <img src="https://eu.ftp.opendatasoft.com/odsacademy/img/rocket.png" width="160px" height="160px" alt="une image" />
-        <div class="first-steps-descrpition">
-          <h1>Getting started with ODS</h1>
-          <p>Taking your first steps on the Opendatasoft platform? This ODS 101 course is here to help you hit the ground running.</p>
-          <a href="https://academy.opendatasoft.com/page/getting-started" class="hero-link">Access the courses</a>
-        </div>
-      </div>
-    </div>
-
     <div id="why-academy" class="hero">
       <h1>Why learn with <strong>ODS Academy</strong> ?</h1>
       <div id="why-cards">
