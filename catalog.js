@@ -14,17 +14,6 @@ const sjContent = document.getElementById('skilljar-content')
 const epFooter = document.querySelector('.catalog-filters #ep-footer')
 
 const homepageFR = /*html*/`
-    <div class="bg-darkblue">
-      <div class="hero">
-        <img src="https://eu.ftp.opendatasoft.com/odsacademy/img/rocket.png" width="320px" height="171px" alt="une image" />
-        <div class="first-steps-descrpition">
-          <h1>Vos premiers pas sur ODS</h1>
-          <p>Apprenez à connaître la plateforme et ses fonctionnalités avec ce premier parcours de découverte.</p>
-          <a href="https://academy.opendatasoft.com/page/vos-premiers-pas-sur-opendatasoft" class="hero-link">Accéder au parcours</a>
-        </div>
-      </div>
-    </div>
-
     <div id="why-academy" class="hero">
       <h1>Pourquoi apprendre avec <strong>ODS Academy</strong> ?</h1>
       <div id="why-cards">
