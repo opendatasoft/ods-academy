@@ -12,18 +12,20 @@
   font-size: 13px;
 }
 
-.lp-color-scheme-light, .lp-color-scheme-light #lp-wrapper, .lp-color-scheme-light #lp-wrapper #lp-content {
+.lp-color-scheme-light,
+.lp-color-scheme-light #lp-wrapper,
+.lp-color-scheme-light #lp-wrapper #lp-content {
   background-color: white;
 }
 
 .lp-color-scheme-light .lp-left-nav .section-title {
- background:#f6f8fb;
- color:#565656;
- margin: 8px 0;
- padding: 0px 6px;
- border-radius: 6px;
- font-size: 13px;
- text-align: left;
+  background: #f6f8fb;
+  color: #565656;
+  margin: 8px 0;
+  padding: 0px 6px;
+  border-radius: 6px;
+  font-size: 13px;
+  text-align: left;
 }
 
 #lp-left-nav {
@@ -41,24 +43,23 @@
 .lp-color-scheme-light .lp-left-nav .course-title {
   color: white;
   background: rgb(69, 32, 95);
-  font-size:15px;
-  font-weight:600;
+  font-size: 15px;
+  font-weight: 600;
   padding: 34px 44px 8px;
   margin: -15px -10px;
-  text-align:left;
-  white-space:normal
+  text-align: left;
+  white-space: normal;
 }
 
 .sj-course-time {
-  display:initial;
-  margin-left:0;
+  display: initial;
+  margin-left: 0;
 }
 
 .sj-course-time:before {
   content: "\A \(";
   white-space: pre;
 }
-
 
 #lp-left-nav .lesson {
   color: black;
@@ -68,16 +69,16 @@
   background: none;
 }
 
-#lp-left-nav .lesson-active .type-icon, #lp-left-nav .lesson-active .title {
+#lp-left-nav .lesson-active .type-icon,
+#lp-left-nav .lesson-active .title {
   color: rgb(69, 32, 95);
 }
-
 
 .lp-left-nav .lesson-complete .type-icon {
   color: rgb(0, 199, 177);
 }
 
-.lp-left-nav .lesson-complete .title{
+.lp-left-nav .lesson-complete .title {
   color: rgb(137, 141, 146);
 }
 
@@ -86,9 +87,21 @@
   color: rgb(69, 32, 95);
 }
 
+#cp-content #curriculum-list .lesson-row .bullet {
+  position: static;
+}
+
+#cp-content #curriculum-list .lesson-row .bullet i {
+  font-size: unset;
+}
+
+.bullet {
+  display: flex;
+  align-items: center;
+}
+
 .bullet i {
-  display: none;
-  visibility: hidden;
+  display: inline-block;
 }
 
 .course-scrollable-content {
@@ -97,7 +110,7 @@
 
 .course-text-content {
   color: #565656;
-  font-family: 'GothamPro', sans-serif;
+  font-family: "GothamPro", sans-serif;
   font-size: 15px;
   padding: 0 41px;
 }
@@ -111,9 +124,9 @@
 }
 
 #lp-wrapper #lesson-body .lesson-top h2 {
- font-size:37px;
- display:inline;
- color: #45205f;
+  font-size: 37px;
+  display: inline;
+  color: #45205f;
 }
 
 #lesson-main-content {
@@ -141,27 +154,30 @@ body.cbp-spmenu-fixed #lp-wrapper #lesson-body {
   flex-direction: column;
 }
 
-#lp-wrapper #lesson-body.details-pane-right #details-pane #details-pane-content {
- position:relative;
- width:100%;
- padding: 0 41px;
+#lp-wrapper
+  #lesson-body.details-pane-right
+  #details-pane
+  #details-pane-content {
+  position: relative;
+  width: 100%;
+  padding: 0 41px;
 }
 
- #lp-wrapper #lesson-body #details-pane #details-pane-content {
-  position:relative;
-  top:unset;
-  bottom:unset;
-  width:100%;
-  overflow:auto;
+#lp-wrapper #lesson-body #details-pane #details-pane-content {
+  position: relative;
+  top: unset;
+  bottom: unset;
+  width: 100%;
+  overflow: auto;
   padding: 0px;
- }
+}
 
 #details-pane-top {
- display:none;
+  display: none;
 }
 
 .quiz .question .question-text {
-font-size:15px;
+  font-size: 15px;
 }
 
 .large-8 {
@@ -170,4 +186,8 @@ font-size:15px;
 
 .show-question .row {
   display: block;
+}
+
+#lesson-body .lesson-type-pdf {
+  max-width: none;
 }

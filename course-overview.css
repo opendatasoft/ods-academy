@@ -89,6 +89,10 @@ section p.title {
   padding: 6px;
 }
 
+.lesson-row {
+  align-items: baseline;
+}
+
 .lesson-section .fa-angle-down {
   float: right;
   font-size: 13px;
@@ -97,6 +101,10 @@ section p.title {
 #cp-content #curriculum-list .lesson-section .fa {
   vertical-align: baseline;
   font-size:13px;
+}
+
+.fa-check-circle {
+  color: rgb(0, 199, 177);
 }
 
 .content p,

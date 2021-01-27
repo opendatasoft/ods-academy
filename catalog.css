@@ -2,10 +2,6 @@
   display:none;
 }
 
-.sj-course-ribbon-wrapper {
-  display:none;
-}
-
 a.coursebox-container {
   border-color: #cbd2db;
   border-radius: 6px;
@@ -32,13 +28,14 @@ a.coursebox-container:hover img {
 
 a.coursebox-container .course-time {
   position: unset;
-  color: #cbd2db;
+  color: #565656;
   font-size: 13px;
   align-self: flex-end;
 }
 
+.catalog-filters a.coursebox-container .coursebox-text,
 a.coursebox-container .coursebox-text {
-  font-size: 15px;
+  font-size: 16px;
   padding: unset;
   margin-bottom: 6px;
 }
@@ -293,4 +290,29 @@ button.tiny {
 
 .search a.coursebox-container .coursebox-text-description {
   border: unset;
+}
+
+
+.sj-ribbon-wrapper .sj-ribbon, .sj-ribbon-wrapper .sj-course-ribbon, .sj-course-ribbon-wrapper .sj-ribbon, .sj-course-ribbon-wrapper .sj-course-ribbon {
+  /* left: -5px; */
+  /* padding: 6px 0; */
+  /* width: 120px; */
+  left: -13px;
+  padding: 0px 0;
+  width: 138px;
+  border: 1px solid;
+}
+
+a.coursebox-container .sj-ribbon-wrapper .sj-ribbon,
+a.coursebox-container .sj-course-ribbon-wrapper .sj-course-ribbon.sj-course-ribbon-registered {
+    color: #45205f;
+    border-color: #45205f;
+    background: white;
+}
+
+a.coursebox-container .sj-ribbon-wrapper .sj-ribbon,
+a.coursebox-container .sj-course-ribbon-wrapper .sj-course-ribbon.sj-course-ribbon-complete {
+    color: white;
+    border-color: #45205f;
+    background: #45205f;
 }
