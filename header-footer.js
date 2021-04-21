@@ -9,6 +9,10 @@ const logoLink = document.querySelector(".header-logo-link");
 const headerLinks = {
   fr: [
     {
+      name: "Parcours utilisateurs",
+      url: "https://academy.opendatasoft.com/page/parcours-fr"
+    },
+    {
       name: "Tous les cours",
       url: "https://academy.opendatasoft.com/page/catalogue-cours"
     },
@@ -22,6 +26,10 @@ const headerLinks = {
     }
   ],
   en: [
+    {
+      name: "Learning paths",
+      url: "https://academy.opendatasoft.com/page/learning-paths"
+    },
     {
       name: "All courses",
       url: "https://academy.opendatasoft.com/page/all-courses"
@@ -61,6 +69,7 @@ const insertFooterLinks = lang => {
       ${lang === "fr" ? "Politique de confidentialité" : "Privacy Policy"}
     </a>
     <a class="footer-content" href="https://legal.opendatasoft.com/${lang}/cookies.html" target="_blank">Cookies</a>
+    <a href="mailto:academy@opendatasoft.com">Contact</a>
   `
     );
 };

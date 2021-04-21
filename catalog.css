@@ -14,17 +14,25 @@ a.coursebox-container {
 
 a.coursebox-container.course .coursebox-image {
  align-self: center;
+ margin: -13px -13px 26px -13px;
+ overflow: clip;
+ border-top-left-radius: 6px;
+ border-top-right-radius: 6px;
 }
 
+a.coursebox-container.course .coursebox-image img {
+  max-width: calc(100% + 13px);
+  max-height: calc(100% + 13px);
+}
 
 a.coursebox-container:hover {
   border-color: black;
   box-shadow: unset;
 }
 
-a.coursebox-container:hover img {
+/* a.coursebox-container:hover img {
   opacity: 0.75;
-}
+} */
 
 a.coursebox-container .course-time {
   position: unset;
@@ -35,7 +43,7 @@ a.coursebox-container .course-time {
 
 .catalog-filters a.coursebox-container .coursebox-text,
 a.coursebox-container .coursebox-text {
-  font-size: 16px;
+  font-size: 24px;
   padding: unset;
   margin-bottom: 6px;
 }
@@ -48,7 +56,7 @@ a.coursebox-container .catalog-page-callout {
 
 a.coursebox-container .coursebox-text-description {
   padding: unset;
-  font-size: 13px;
+  font-size: 1rem;
   display: block;
 }
 
@@ -65,7 +73,7 @@ a.coursebox-container.course .coursebox-text-description {
 
 a.coursebox-container .coursebox-text-description {
   padding: 8px 0;
-  font-size:13px;
+  font-size:1rem;
   flex-grow: 1;
   border-bottom: 1px solid #dadada;
 }
@@ -144,7 +152,6 @@ button.tiny {
 
 .no-catalog-filters .catalog-center-width {
   min-width: 320px;
-  max-width: 960px;
 }
 
 .sj-catalog-root #catalog-courses {
@@ -210,7 +217,6 @@ button.tiny {
  justify-content: center;
  padding: 0 48px;
  min-width: 320px;
- max-width: 960px;
  margin: 0 auto;
 }
 
@@ -259,7 +265,7 @@ button.tiny {
  background-size:auto 320px;
  margin: 0 auto 41px auto;
  background-repeat: no-repeat;
- background-position: top right;
+ background-position: top right 30px;
 }
 
 
