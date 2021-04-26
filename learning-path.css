@@ -69,18 +69,22 @@ a.coursebox-container.sj-path .coursebox-text-description {
 .path-courses-row {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 3rem;
 }
 
 .path-summary {
   display: flex;
   width: 100%;
   background: #f6f8fb;
+  max-width: 1200px;
 }
 
 .path-summary h3 {
   font-size: 1.2rem;
-  margin: 0;
+  margin: 0.5em 0 1em 0;
+}
+
+.path-summary .description h3 {
+  margin: 1em 0.5em;
 }
 
 .path-goals {
