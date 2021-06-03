@@ -81,6 +81,18 @@ section p.title {
   line-height: 22px;
 }
 
+.dp-row-flex-v2 {
+  height: 100%;
+}
+
+.dp-promo-image {
+  float: right;
+}
+
+.dp-summary-wrapper {
+  text-align: left !important;
+}
+
 .lesson-section {
   font-size: 13px;
   color: rgb(86, 86, 86);

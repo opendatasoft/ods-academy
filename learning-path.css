@@ -75,7 +75,8 @@ a.coursebox-container.sj-path .coursebox-text-description {
   display: flex;
   width: 100%;
   background: #f6f8fb;
-  max-width: 1200px;
+  max-width: 1196px;
+  margin-bottom: 3rem;
 }
 
 .path-summary h3 {
