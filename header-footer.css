@@ -80,9 +80,12 @@
 }
 
 
-.header-link.hover {
-  color: rgb(69, 32, 95);
+#header a.header-link:hover {
+ text-decoration: underline;
+ text-decoration-style: dotted;
+ color: #1484ba;
 }
+
 
 #header .header-dropdown-button img {
  border-radius:50%;

@@ -145,7 +145,6 @@
 }
 
 body.cbp-spmenu-fixed #lp-wrapper #lesson-body {
-  overflow: scroll;
   margin: 0 auto;
   max-width: 960px;
 }

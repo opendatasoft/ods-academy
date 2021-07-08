@@ -24,6 +24,14 @@ li {
 
 #lp-wrapper a {
   text-decoration: underline;
+  text-decoration-style: dotted;
+  color: #0086d6;
+}
+
+#lp-wrapper a:hover,
+#lp-wrapper a:focus {
+  text-decoration: underline;
+  text-decoration-style: dotted;
   color: #0086d6;
 }
 
