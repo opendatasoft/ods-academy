@@ -1,0 +1,66 @@
+body {
+   background:#fff;
+   color:#222;
+   padding:0;
+   margin:0;
+   font-family: 'GothamPro', sans-serif;
+   font-weight: 300 !important;
+   line-height:22px;
+   position:relative;
+   cursor:default
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'GothamPro', sans-serif;
+}
+
+p, span, ul {
+  font-weight: 300 !important;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+#lp-wrapper a {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  color: #0086d6;
+}
+
+#lp-wrapper a:hover,
+#lp-wrapper a:focus {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  color: #0086d6;
+}
+
+.button-border-color {
+  border-color: rgb(69, 32, 95);
+}
+
+.button-background {
+  background-color: rgb(69, 32, 95);
+}
+
+/* utilities */
+.d-flex {
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
+
+.align-top {
+  align-items: flex-start;
+}
+
+.m-none {
+  margin: unset !important;
+}
+
+/* Move into specific login file if we redesign the login */
+form .row {
+  display: block;
+}

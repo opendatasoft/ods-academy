@@ -1,0 +1,120 @@
+// Skilljar scripts in jQuery (imperative and global)
+var refGuides = document.querySelectorAll('#skilljar-content #catalog-content #catalog-courses a[data-tags*="auto-register"]')
+refGuides.forEach(function (node) {
+  var href = node.href;
+  if (!~href.indexOf('?reg=1')) {
+    node.href = href + '?reg=1';
+  }
+})
+})
+
+$(document).ready(function() {
+if ($('.sj-page-curriculum').length && !$('#resume-button').length && $('.lesson-incomplete').length) {
+  var firstLesson = $('.lesson-incomplete').first().attr('href');
+  var startButton = $(
+    sessionStorage.getItem('lang') === 'fr'
+      ? '<a class="button margin-top custom-start-btn" title="Begin"><span>Commencer</span></a>'
+      : '<a class="button margin-top custom-start-btn" title="Begin"><span>Start</span></a>')
+    .attr('href', firstLesson)
+  $('.cp-summary-wrapper').append($('<div class="custom-btn-container" id="resume-button"/>').append(startButton));
+}
+});
+
+// =====================
+
+// ODS scripts (variables are scoped)
+
+/*
+Homepage injection
+*/
+const injectCards = () => {
+  document.getElementById('skilljar-content') && document.getElementById('skilljar-content').classList.remove('grey-bg-d05')
+
+  Array.from(document.querySelectorAll('.fa-caret-down'))
+    .forEach((item) => {
+      item.classList.remove('fa-caret-down')
+      item.classList.add('fa-angle-down')
+    })
+
+  const menu = document.getElementById('catalog-filter-menu')
+  const leftNav = document.getElementById('catalog-left-nav')
+  const sjContent = document.getElementById('skilljar-content')
+  const epFooter = document.querySelector('.catalog-filters #ep-footer')
+
+  const homepageFR = /*html*/`
+      <div id="why-academy" class="hero">
+        <h1>Pourquoi apprendre avec <strong>ODS Academy</strong> ?</h1>
+        <div id="why-cards">
+          <div class="why-card">
+            <img src="https://eu.ftp.opendatasoft.com/odsacademy/img/meter.svg" alt="compteur">
+            <h3>Gagnez en autonomie sur ODS</h3>
+            <p>Apprenez à réaliser des opérations de plus en plus avancées sur la plateforme. Suivez les cours à votre rythme, testez vos connaissances grâce à des quizzes et des exercices, et formez à votre tour vos collègues et vos partenaires.</p>
+          </div>
+          <div class="why-card">
+            <img src="https://eu.ftp.opendatasoft.com/odsacademy/img/pen.svg" alt="compteur">
+            <h3>Composez votre menu pédagogique</h3>
+            <p>Parcours interactif, cours rapide ou tutoriel express, trouvez le contenu adapté à vos objectifs, à votre niveau et au temps que vous avez devant vous. Commencez une leçon et revenez-y quand vous le souhaitez, sans perdre votre progression.</p>
+          </div>
+          <div class="why-card">
+            <img src="https://eu.ftp.opendatasoft.com/odsacademy/img/hands.svg" alt="compteur">
+            <h3>Valorisez vos savoirs et savoir-faire</h3>
+            <p>Combinez votre maîtrise d’ODS avec une solide connaissance du cycle de vie des données. Servez-vous de vos compétences pour faire grandir les projets numériques dans votre organisation, et booster vos opportunités de carrière.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="bg-purple">
+        <div class="hero">
+          <div>
+            <p>Opendatasoft est enregistré comme organisme de formation.</p>
+            <h1>Nos formations sont reconnues. Vos compétences aussi.</h1>
+          </div>
+        </div>
+      </div> -->
+  `
+
+  const homepageEN = /*html*/`
+      <div id="why-academy" class="hero">
+        <h1>Why learn with <strong>ODS Academy</strong> ?</h1>
+        <div id="why-cards">
+          <div class="why-card">
+            <img src="https://eu.ftp.opendatasoft.com/odsacademy/img/meter.svg" alt="compteur">
+            <h3>Become an ODS independant power user</h3>
+            <p>Learn how to manage increasingly advanced operations on the platform. Follow self-paced courses, test your knowledge with quizzes and exercices, and start training your colleagues and partners with your newly acquired skills.</p>
+          </div>
+          <div class="why-card">
+            <img src="https://eu.ftp.opendatasoft.com/odsacademy/img/pen.svg" alt="compteur">
+            <h3>Compose your own educational menu</h3>
+            <p>Hands-on courses, short lessons or quick how-tos... find the content that meets best your goals, level and time you have to offer. Start a lesson and go back to it whenever you want, without losing your progress.</p>
+          </div>
+          <div class="why-card">
+            <img src="https://eu.ftp.opendatasoft.com/odsacademy/img/hands.svg" alt="compteur">
+            <h3>Promote your knowledge and skills</h3>
+            <p>Combine your ODS power user skills with a solid knowledge of the data lifecycle. Leverage those to develop digital projects in your organization and boost your career opportunities.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="bg-purple">
+        <div class="hero">
+          <div>
+            <p>Opendatasoft is registered as a training organization.</p>
+            <h1>Our trainings are recognized. Your skills too.</h1>
+          </div>
+        </div>
+      </div> -->
+  `
+
+  if (!menu) {
+    leftNav && leftNav.classList.add('d-none')
+    sjContent && sjContent.classList.add('m-none')
+    epFooter && epFooter.classList.add('m-none')
+  }
+
+  const homepageContent = document.querySelector('.sj-page-catalog-root #skilljar-content') || document.querySelector('[data-catalog-page="homepage"] #skilljar-content')
+  if (homepageContent) {
+    (window.location.toString() === 'https://academy.opendatasoft.com/')
+      ? homepageContent.insertAdjacentHTML('beforeend', homepageFR)
+      : homepageContent.insertAdjacentHTML('beforeend', homepageEN)
+  }
+}
