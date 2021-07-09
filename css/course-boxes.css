@@ -1,7 +1,12 @@
 .course-box {
   border-radius: 6px;
   padding: 26px;
-  margin: 26px 0;
+  margin: 26px 0;
+}
+
+.course-box p,
+.course-box ol {
+  margin: 0;
 }
 
 .course-box-success {
