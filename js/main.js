@@ -84,6 +84,7 @@ $(document).ready(function() {
   }
 });
 
+
 // From Skilljar CSMs
 $(document).ready(function () {
   var refGuides = document.querySelectorAll('#skilljar-content #catalog-content #catalog-courses a[data-tags*="auto-register"]')
