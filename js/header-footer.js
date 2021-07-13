@@ -1,4 +1,4 @@
-(function() {
+(() => {
   const headerLeft = document.getElementById("header-left")
   const headerRight = document.getElementById("header-right")
   const langButton = document.querySelector(".header-lang")

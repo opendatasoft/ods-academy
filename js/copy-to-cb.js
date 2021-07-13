@@ -1,4 +1,4 @@
-(function() {
+(() => {
   let copyText = 'Copy';
   let copiedText = 'Copied!';
 

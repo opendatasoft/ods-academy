@@ -1,4 +1,4 @@
-(function() {
+(() => {
   const homepageFR = /*html*/`
     <div id="why-academy" class="hero">
       <h1>Pourquoi apprendre avec <strong>ODS Academy</strong> ?</h1>
