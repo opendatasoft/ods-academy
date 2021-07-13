@@ -127,11 +127,19 @@ section p.title {
 }
 
 .top-row-grey {
-  background: #F6F8FB;
+  background: white;
   border: none;
   height: 320px;
   padding: unset;
 }
+
+.dp-row-flex-v2 {
+  display: flex;
+  align-items: stretch;
+  height:100%;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #565656;
+ } 
 
 .row {
   display: flex;
@@ -145,6 +153,23 @@ section p.title {
  margin:64px auto;
 }
 
+[data-tags*="color-darkblue"] .cp-promo-image-wrapper {
+  background: #142e7b;
+}
+
+[data-tags*="color-lightblue"] .cp-promo-image-wrapper {
+  background: #0086d6;
+}
+
+[data-tags*="color-green"] .cp-promo-image-wrapper {
+  background: #00c7b1;
+}
+
+.cp-promo-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .course-image {
   height: 171px;
