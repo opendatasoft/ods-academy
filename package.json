@@ -12,7 +12,7 @@
     "terser": "^5.7.1"
   },
   "scripts": {
-    "export": "postcss css/*.css -d dist/css && node deploy"
+    "export": "postcss css/*.css -d dist/css && node deploy && babel js -d dist/js --presets=@babel/preset-env"
   },
   "browserslist": "last 2 versions, > 0.25%, not dead"
 }
