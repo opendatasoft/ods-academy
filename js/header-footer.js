@@ -112,14 +112,15 @@
     }
   }
 
-
+  const path = new URL(window.location).pathname;
   if (
-    window.location.toString() ===
-    "https://academy.opendatasoft.com/page/homepage"
+    path === "/page/homepage"
   ) {
+    console.log(path, 'setting EN')
     sessionStorage.setItem("lang", "en")
   } else if (
-    window.location.toString() === "https://academy.opendatasoft.com/"
+    console.log(path, 'setting FR')
+    path === "/"
   ) {
     sessionStorage.setItem("lang", "fr")
   } else if (!sessionStorage.getItem("lang")) {
