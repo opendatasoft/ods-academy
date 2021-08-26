@@ -9,7 +9,7 @@
     fr: [
       {
         name: "Parcours utilisateurs",
-        url: "https://academy.opendatasoft.com/page/parcours-fr"
+        url: "https://academy.opendatasoft.com/page/parcours-fr"
       },
       {
         name: "Tous les cours",
@@ -26,8 +26,8 @@
     ],
     en: [
       {
-        name: "Learning paths",
-        url: "https://academy.opendatasoft.com/page/learning-paths"
+        name: "Learning paths",
+        url: "https://academy.opendatasoft.com/page/learning-paths"
       },
       {
         name: "All courses",
@@ -116,10 +116,8 @@
   if (
     path === "/page/homepage"
   ) {
-    console.log(path, 'setting EN')
     sessionStorage.setItem("lang", "en")
   } else if (
-    console.log(path, 'setting FR')
     path === "/"
   ) {
     sessionStorage.setItem("lang", "fr")
