@@ -24,11 +24,6 @@ a.coursebox-container.course .coursebox-image {
     width: calc(100% + 26px);
 }
 
-a.coursebox-container.course .coursebox-image img {
-    max-width: 70%;
-    max-height: 70%;
-}
-
 a.coursebox-container:hover {
     border-color: black;
     box-shadow: unset;
