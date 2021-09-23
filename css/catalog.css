@@ -29,15 +29,18 @@ a.coursebox-container:hover {
     box-shadow: unset;
 }
 
-a.coursebox-container[data-tags*="color-darkblue"] .coursebox-image {
+a.coursebox-container[data-tags*="color-darkblue"] .coursebox-image,
+#main-container[data-tags*="color-darkblue"] .dp-promo-image {
     background: #142E7B;
 }
 
-a.coursebox-container[data-tags*="color-lightblue"] .coursebox-image {
+a.coursebox-container[data-tags*="color-lightblue"] .coursebox-image,
+#main-container[data-tags*="color-lightblue"] .dp-promo-image {
     background: #0086d6;
 }
 
-a.coursebox-container[data-tags*="color-green"] .coursebox-image {
+a.coursebox-container[data-tags*="color-green"] .coursebox-image,
+#main-container[data-tags*="color-green"] .dp-promo-image {
     background: #00c7b1;
 }
 
