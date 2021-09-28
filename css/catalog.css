@@ -1,11 +1,11 @@
 /* Crappy fix for homepage image. To remove once images are fixed */
+
 .sj-page-catalog-root a.coursebox-container.course .coursebox-image img {
     max-height: 100%;
     max-width: 100%;
     height: 100%;
     width: 100%;
-  }
-  
+}
 
 .storefront-price {
     display: none;
@@ -46,6 +46,11 @@ a.coursebox-container[data-tags*="color-darkblue"] .coursebox-image,
 a.coursebox-container[data-tags*="color-lightblue"] .coursebox-image,
 #main-container[data-tags*="color-lightblue"] .dp-promo-image {
     background: #0086d6;
+}
+
+a.coursebox-container[data-tags*="color-red"] .coursebox-image,
+#main-container[data-tags*="color-red"] .dp-promo-image {
+    background: #ce0037;
 }
 
 a.coursebox-container[data-tags*="color-green"] .coursebox-image,
@@ -334,6 +339,7 @@ button.tiny {
     padding: 0px 0;
     width: 138px;
     border: 1px solid;
+    display: none;
 }
 
 a.coursebox-container .sj-ribbon-wrapper .sj-ribbon,
