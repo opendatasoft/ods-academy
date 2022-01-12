@@ -1,66 +1,122 @@
 body {
-   background:#fff;
-   color:#222;
-   padding:0;
-   margin:0;
-   font-family: 'GothamPro', sans-serif;
-   font-weight: 300 !important;
-   line-height:22px;
-   position:relative;
-   cursor:default
+    background: #fff;
+    color: #222;
+    padding: 0;
+    margin: 0;
+    font-family: 'GothamPro', sans-serif;
+    font-weight: 300 !important;
+    line-height: 22px;
+    position: relative;
+    cursor: default
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'GothamPro', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'GothamPro', sans-serif;
 }
 
-p, span, ul {
-  font-weight: 300 !important;
+p,
+span,
+ul {
+    font-weight: 300 !important;
 }
 
 li {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 #lp-wrapper a {
-  text-decoration: underline;
-  text-decoration-style: dotted;
-  color: #0086d6;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    color: #0086d6;
 }
 
 #lp-wrapper a:hover,
 #lp-wrapper a:focus {
-  text-decoration: underline;
-  text-decoration-style: dotted;
-  color: #0086d6;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    color: #0086d6;
 }
 
 .button-border-color {
-  border-color: rgb(69, 32, 95);
+    border-color: rgb(69, 32, 95);
 }
 
 .button-background {
-  background-color: rgb(69, 32, 95);
+    background-color: rgb(69, 32, 95);
 }
 
+
 /* utilities */
+
 .d-flex {
-  display: flex;
+    display: flex;
 }
 
 .d-none {
-  display: none;
+    display: none;
 }
 
 .align-top {
-  align-items: flex-start;
+    align-items: flex-start;
 }
 
 .m-none {
-  margin: unset !important;
+    margin: unset !important;
 }
 
+
 /* Move into specific login file if we redesign the login */
+
 form .row {
-  display: block;
+    display: block;
+}
+
+
+/* Breadcrumbs */
+
+.breadcrumb {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 auto;
+    max-width: 1024px;
+    padding-top: 36px;
+}
+
+@media only screen and (min-width: 1213px) {
+    .breadcrumb {
+        max-width: 1196px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .breadcrumb {
+        max-width: 1483px;
+    }
+}
+
+.breadcrumb>li {
+    display: inline-block;
+}
+
+.breadcrumb li+li {
+    padding-left: 16px;
+}
+
+.breadcrumb-separator {
+    font-size: 22px;
+}
+
+.crumb-link {
+    color: rgba(255, 255, 255, .8);
+}
+
+.crumb-link:hover {
+    color: rgba(255, 255, 255, .8);
+    text-decoration: underline;
 }

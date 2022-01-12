@@ -1,8 +1,7 @@
 /* Crappy fix for homepage image. To remove once images are fixed */
 
 .sj-page-catalog-root a.coursebox-container.course .coursebox-image img {
-    max-height: 100%;
-    max-width: 100%;
+    display: block;
     height: 100%;
     width: 100%;
 }
@@ -56,6 +55,26 @@ a.coursebox-container[data-tags*="color-red"] .coursebox-image,
 a.coursebox-container[data-tags*="color-green"] .coursebox-image,
 #main-container[data-tags*="color-green"] .dp-promo-image {
     background: #00c7b1;
+}
+
+a.coursebox-container[data-tags*="color-grey"] .coursebox-image,
+#main-container[data-tags*="color-grey"] .dp-promo-image {
+    background: #f5f8fb;
+}
+
+a.coursebox-container[data-tags*="color-pink"] .coursebox-image,
+#main-container[data-tags*="color-pink"] .dp-promo-image {
+    background: #dc0078;
+}
+
+a.coursebox-container[data-tags*="color-yellow"] .coursebox-image,
+#main-container[data-tags*="color-yellow"] .dp-promo-image {
+    background: #efb71b;
+}
+
+a.coursebox-container[data-tags*="color-darkgrey"] .coursebox-image,
+#main-container[data-tags*="color-darkgrey"] .dp-promo-image {
+    background: #595959;
 }
 
 
